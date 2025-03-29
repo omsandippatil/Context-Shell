@@ -1,0 +1,197 @@
+  
+[Sat Mar 29 09:10:00 UTC 2025]
+User Input: March 29, 2025 (Saturday)  "A Rollercoaster of a Day"  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, "Durva! If you sleep all day, you’ll turn into a zombie!" (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto "I don’t have time to think" outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text:
+
+• The date is March 29, 2025, a Saturday.
+• The narrator, Durva, stayed up late watching Stranger Things and overslept.
+• Durva had plans to meet friends Priya and Aadi at the mall at 11 am.
+• Durva was late and rushed to get ready, with mom dropping her off at the mall.
+• Durva, Priya, and Aadi had a good time at the mall until they ran into Riya, a former friend, and her new friend group, which caused tension.
+• The encounter with Riya ruined the mood, and they left the mall early.
+• Durva felt down about the encounter and distracted herself by scrolling through TikTok and painting her nails.
+• The next day, Sunday, is homework day.
+--------------------------------------
+
+[Sat Mar 29 09:10:07 UTC 2025]
+User Input: 
+Bot Response: It sounds like you had a pretty eventful day, Durva! I'm sorry to hear that running into Riya and her new friends put a damper on your fun with Priya and Aadi. It's understandable that you'd feel down about it, especially when things get weird with people you used to be close to.
+
+If you're feeling up to it, reaching out to Priya and Aadi to talk about what happened might help clear the air and make you all feel better. But if you're not in the mood, that's okay too - sometimes taking some time for yourself to relax and recharge is exactly what you need.
+
+Key Facts to Remember:
+
+• Durva had a rollercoaster of a day, with both fun and awkward moments.
+• The encounter with Riya and her new friends caused tension and ruined the mood.
+• Durva felt down about the encounter and distracted herself with social media and a hobby.
+• Reaching out to friends or taking time for herself are options for Durva to process her emotions.
+Extracted Facts:
+Here are the key facts to remember:
+
+• Durva had a day with both fun and awkward moments.
+• An encounter with Riya and her new friends caused tension and ruined the mood.
+• Reaching out to friends or taking time for herself are options for Durva to process her emotions.
+--------------------------------------
+
+[Sat Mar 29 09:10:33 UTC 2025]
+User Input: March 30, 2025 (Sunday)  "Homework, Horoscopes, and Healing Vibes"  Ugh, Sundays. The day where reality hits you like a stack of unfinished homework. I swore I’d start my assignments early this weekend, but of course, I didn’t. Woke up to a text from Priya: "Hey, about yesterday… Riya’s just being Riya. Don’t overthink it." I wanted to believe her, but my brain loves overthinking—it’s my toxic trait.  After a breakfast of leftover pizza (judge me, I don’t care), I finally opened my biology textbook. Five minutes in, I was already googling "Why is photosynthesis so boring?" Spoiler: No good answers. My little brother, Arjun, barged in asking if I’d play Roblox with him. Normally I’d say no, but today I used it as the perfect excuse to procrastinate. (Sorry, future Durva.)  Mom peeked into my room around noon, took one look at my halfdone homework and my phone in my hand, and sighed. "Durva, your midterms are next month. Focus!" I groaned but shut my door and tried to study. Keyword: tried. My phone kept buzzing—Aadi sent a meme about teachers who assign homework on weekends (mood), and then Riya actually texted me: "Hey, didn’t mean for things to be weird yesterday."  Wait, what?  I stared at my screen for a solid minute. Was this an olive branch? A trap? I replied with a simple "It’s cool" and immediately screenshotted it for Priya and Aadi. The group chat exploded. Priya: "She’s being nice?? Suspicious." Aadi: "Or maybe she’s just… being nice?" Boys are so oblivious.  By evening, I’d managed to finish most of my homework (shoutout to caffeine and desperation). Dad ordered my favorite Chinese takeout as a "reward" (his way of bribing me to stop complaining). Over dumplings, Arjun told us about his "girlfriend" in his class (he’s 8, it’s not serious), and Mom and Dad fakecried about him growing up too fast.  Before bed, I checked my horoscope—"Virgo: A misunderstanding will resolve itself. Stay openhearted." Okay, universe, I see you. Maybe things with Riya will be fine. Or maybe horoscopes are just vague enough to always feel right. Either way, I’m going to sleep early (for once).  Signing off,  Durva
+Bot Response: It sounds like you're having a bit of a rollercoaster ride with your emotions, Durva! One minute you're feeling down about Riya, and the next, you're getting a text from her that seems friendly. It's understandable that you're unsure what to make of it.
+
+I love how you're keeping your friends in the loop, though - that group chat must have been lit! And hey, at least you managed to get most of your homework done, right? Caffeine and desperation can be great motivators.
+
+That horoscope does sound promising, doesn't it? Maybe things will resolve themselves, and you can put this awkwardness with Riya behind you. Either way, it's great that you're taking things in stride and focusing on the positives.
+
+Key Facts to Remember:
+
+• Durva woke up to a text from Priya, who told her not to overthink the encounter with Riya.
+• Durva struggled to focus on her homework and procrastinated by playing Roblox with her brother.
+• Riya texted Durva, seemingly extending an olive branch, which sparked a discussion in the group chat.
+• Durva managed to finish most of her homework and was rewarded with her favorite Chinese takeout.
+• Durva checked her horoscope, which suggested a misunderstanding would resolve itself, and she's choosing to stay open-hearted about it.
+Extracted Facts:
+Here are the key facts to remember:
+
+• Durva received a text from Priya about not overthinking the encounter with Riya.
+• Riya sent a friendly text to Durva, sparking a discussion in the group chat.
+• Durva struggled with homework and procrastinated, but eventually finished most of it with the help of caffeine and desperation.
+• Durva's parents rewarded her with her favorite Chinese takeout for completing her homework.
+• Durva's horoscope suggested a misunderstanding would resolve itself, and she's choosing to stay open-hearted about it.
+--------------------------------------
+
+[Sat Mar 29 09:10:56 UTC 2025]
+User Input: P.S. — Should I text Riya back properly tomorrow? Or let it go? Ugh, social stuff is exhausting.    Want me to keep going? I can write about her Monday at school next! 😄  March 31, 2025 (Monday)  "Monday Misery and Unexpected Plot Twists"  Alarm went off at 6:45 AM. Six. Forty. Five. Who decided school should start this early? I swear, it’s a human rights violation. I hit snooze three times before Mom yelled from the kitchen, "Durva, if you miss the bus again, I’m not driving you!" (She says this every Monday. She’ll totally drive me.)  Threw on my least wrinkled uniform, shoved my halffinished math homework in my bag, and sprinted to the bus stop—where Priya was waiting, looking way too awake for a Monday. "You look like a zombie," she said, tossing me a chocolate muffin. (This is why she’s my best friend.)  First period was physics. Mr. Sharma gave us a pop quiz—actual evil incarnate. I guessed on like half the answers and prayed for partial credit. Then, in the hallway, drama alert: Riya walked right up to me. My stomach dropped, but she just said, "Hey, about the mall… I didn’t mean to make it weird. New friends are cool, but I miss you guys sometimes."  Cue record scratch.  Priya, standing next to me, raised an eyebrow. I didn’t know what to say, so I just went with, "Yeah, no, it’s cool." (Real smooth, Durva.) Riya smiled awkwardly and walked off. Priya immediately dragged me into the bathroom for an emergency analysis session. "Was that an apology? A trap? A glitch in the matrix?"  Lunch was chaos. Aadi dropped his tray (spaghetti everywhere), Riya’s group sat weirdly close to us, and Priya kept making "spy mission" eyes at me while pretending to text. Meanwhile, I was too busy stressing over the fact that I had a history presentation tomorrow that I hadn’t started. (Why do I do this to myself?)  After school, Mom forced me to help Arjun with his homework (how is a third grader’s math harder than mine?), and then—plot twist—Riya DM’d me a "Remember this?" pic from last year’s school trip. We looked so happy. I didn’t reply right away. Instead, I stared at my history textbook for two hours, wrote three sentences of my presentation, and then gave up to watch Gilmore Girls reruns.  Now it’s 11 PM. I should be finishing my presentation, but my brain is mush. Also, I can’t stop thinking about Riya’s texts. Do I miss her? Is this friendship salvageable? Ugh. Maybe tomorrow will be less… everything.  Signing off,  Durva    P.S. — Just checked my horoscope: "A past connection resurfaces. Proceed with honesty." Okay, fine, universe. I’ll think about it. After I survive this presentation.
+Bot Response: It seems like Riya is making an effort to reconnect and apologize for the awkwardness at the mall. Considering your horoscope from yesterday and today, it might be worth exploring this renewed connection. However, it's essential to approach the situation with honesty and caution. You could try texting Riya back tomorrow, but make sure you're clear about your feelings and boundaries.
+
+As for now, prioritize your history presentation and get a good night's sleep. You can always reassess the situation with Riya once you've got your priorities in order.
+
+Key Facts to Remember:
+
+• Durva received a friendly text from Riya, which sparked a conversation about reconnecting and apologizing for the awkwardness at the mall.
+• Riya approached Durva in the hallway, expressing her desire to reconnect and apologizing for making things weird.
+• Durva's friends, Priya and Aadi, are involved in the situation and providing their opinions.
+• Durva has a history presentation to prepare for and is struggling to focus due to the drama with Riya.
+• Durva's horoscope suggests proceeding with honesty in regards to the resurfaced connection with Riya.
+Extracted Facts:
+Here are the key facts to remember:
+
+• Durva had a awkward encounter with Riya at the mall (previous incident, not mentioned in this text)
+• Riya approached Durva in the hallway and apologized for making things weird at the mall
+• Riya sent a friendly text to Durva with a photo from last year's school trip
+• Durva has a history presentation to prepare for and is struggling to focus due to the drama with Riya
+• Durva's horoscope suggests proceeding with honesty in regards to the resurfaced connection with Riya
+--------------------------------------
+
+[Sat Mar 29 09:11:52 UTC 2025]
+User Input: April 1, 2025 (Tuesday)  "April Fools' Disaster (And Not the Funny Kind)"  I should've known today would be cursed when I woke up to my brother screaming "APRIL FOOLS!" and dumping a cup of ice water on me. I nearly murdered him. Mom just laughed and said "Good one, Arjun!" — traitor.  Rushed to school looking like a wet cat, only to realize—my history presentation was first period. I'd barely finished my notecards on the bus, and my hands were shaking so bad I dropped them twice in the hallway. Priya tried to help me reorganize them, but then Aadi "pranked" me by switching two cards as a "joke." (Not. Funny.)  Of course, Riya was in my class. She gave me this weirdly encouraging smile when I walked up to present. My mouth went dry. I started talking way too fast about the Industrial Revolution (why did I pick the most boring topic?), mixed up my dates, and completely blanked halfway through. Worst part? My teacher, Mrs. Kapoor, just stared at me like I'd personally disappointed her ancestors.  At lunch, Priya and Aadi tried to cheer me up with stolen cafeteria cookies (Aadi's "apology" for the notecard sabotage). Then Riya sat down with us out of nowhere. The table went silent. She just said, "Your presentation wasn't that bad. At least you didn't cry like I did during mine last year." And then—we actually laughed about it.  After school, the three of us walked to the park like we used to before the Great Friend Breakup of 2024. Riya admitted her new friends are kinda fake ("They think astrology is stupid," she whispered, horrified). We fed ducks stale bread and gossiped about teachers until sunset. It felt... normal.  Now I'm home, eating ice cream straight from the tub while Arjun begs for a bite. Dad asked why I looked so happy after "bombing" my presentation (thanks, Dad). I didn't tell him it's because maybe—maybe—I got a piece of my old life back today.  Signing off,  Durva  P.S. — Riya just texted: "Missed this. Don't ghost me again." APRIL FOOLS...? (I hope not.)    Want Wednesday's entry? I'm sensing a friendship redemption arc coming... 👀
+Bot Response: It seems like today was a rollercoaster of emotions for you, Durva! From getting pranked by your brother to bombing your history presentation, it's amazing you managed to turn the day around with Riya. I'm glad to see you're giving her a chance to reconnect and apologize for her past behavior.
+
+It's interesting that Riya admitted her new friends are fake and that you all had a good time gossiping and feeding ducks together. Maybe this is the start of a beautiful friendship redemption arc, as you hinted! Just remember to approach the situation with caution and honesty, as your horoscope suggested.
+
+As for now, enjoy your ice cream and bask in the happiness of reconnecting with an old friend. And don't worry, I'm sure Riya's text wasn't an April Fools' joke!
+
+Key Facts to Remember:
+
+• Durva had a disastrous morning, getting pranked by her brother and struggling with her history presentation.
+• Riya was in Durva's class and offered her support after the presentation, leading to a chance encounter at lunch.
+• Durva, Priya, and Riya reconnected and spent time together at the park, gossiping and feeding ducks.
+• Riya admitted her new friends are fake and seemed to genuinely want to reconnect with Durva.
+• Durva is hopeful about the possibility of redeeming her friendship with Riya.
+Extracted Facts:
+Here are the key factual information to remember:
+
+• The date of the event is April 1, 2025 (Tuesday).
+• Durva's brother, Arjun, pranked her on April Fool's Day.
+• Durva had a history presentation in her first period class, but it did not go well.
+• Riya was in Durva's class and offered her support after the presentation.
+• Durva, Priya, and Riya reconnected and spent time together at the park.
+• Riya admitted that her new friends are fake.
+• Durva is hopeful about the possibility of redeeming her friendship with Riya.
+--------------------------------------
+
+[Sat Mar 29 09:12:08 UTC 2025]
+User Input: April 2, 2025 (Wednesday)  "The Great Friendship Experiment"  My phone buzzed at 2:17 AM last night. It was Riya: "Can’t sleep. Remember when we used to have midnight Zoom study sessions and just ended up gossiping instead?" I stared at the message for ten full minutes before replying: "Yeah… we should do that again." And just like that, the Great Friendship Experiment of 2025 began.  First period English was brutal because I’d only gotten four hours of sleep. Mrs. Nair called on me to analyze a Shakespeare sonnet and I swear my brain shortcircuited. I blurted out, "Love is… complicated?" which made the whole class laugh. Even Riya, who mouthed "Smooth" from across the room.  At lunch, Priya and Aadi interrogated me about the "2:17 AM text incident" (Aadi saw my phone light up during our latenight gaming session). Priya crossed her arms: "So are we just forgiving her now?" But then Riya walked over with four juice boxes (the good kind with the tiny straws) and suddenly we were all squished at our usual table again, arguing about whether pineapple belongs on pizza like nothing ever happened.  After school, the four of us went to Priya’s house under the guise of "studying for chemistry." Instead, we:  1. Ate an entire packet of Oreos  2. Took those stupid "Which Harry Potter Character Are You?" quizzes (I got Hermione, Riya got Luna, and Aadi was furious about getting Neville)  3. Actually studied for like 12 minutes  4. Made a highly detailed plan to sneak into the school after hours and replace all the cafeteria’s salt with sugar (we’ll never do it… probably)  Mom picked me up at 8 PM and asked why I looked so happy. I just shrugged, but the truth? It feels like finding a missing puzzle piece you didn’t even know was gone.  Now I’m in bed, replaying today in my head. Riya sent a TikTok of a raccoon eating cotton candy with the caption "Us with the Oreos." Priya added it to our resurrected group chat (name: "The Ghosts of Friendships Past"). Aadi texted: "I still think I’m more of a Ron."  Some days change everything.  Signing off,  Durva  P.S. — Just realized midterms start next week. PANIC. But also… for once, I don’t feel alone in the chaos.    Want Thursday’s entry? Midterm stress + friendship growing pains = guaranteed drama! 😅
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text in bullet point format:
+
+• The story takes place on April 2, 2025 (Wednesday).
+• The protagonist, Durva, receives a text from Riya at 2:17 AM, which sparks the "Great Friendship Experiment".
+• Durva, Riya, Priya, and Aadi are the main characters and friends.
+• They have a history of having midnight Zoom study sessions that often turned into gossiping.
+• The friends reunite and spend time together, doing activities such as taking quizzes, eating Oreos, and making plans to sneak into the school cafeteria.
+• The group chat name is "The Ghosts of Friendships Past".
+• Midterms are starting next week, causing Durva to panic.
+--------------------------------------
+
+[Sat Mar 29 09:12:25 UTC 2025]
+User Input: April 3, 2025 (Thursday)  "Study Sessions and Emotional Whiplash"  The midterm panic hit me like a truck this morning when Priya slammed her chemistry notebook on my desk and hissed, "We have a test in 48 hours and you still think mitochondria are 'the cell's little batteries.'" (They’re not?! Since when?!)  Riya rescued me by organizing an emergency study session at the library after school. She brought colorcoded flashcards like some kind of academic superhero. Aadi showed up 40 minutes late with "snacks for emotional support"—which was just a familysize bag of Spicy Nacho Doritos and three CapriSuns. (Boys are… something else.)  Things got weird when Riya’s new friends walked by our table. One of them—some girl with perfect eyeliner I’ve never liked—whispered loudly, "Wow, guess we know who got replaced." The table went silent. Riya’s face turned bright red. Priya kicked me under the table like "DO SOMETHING."  So I did what any mature, emotionally intelligent person would do.  I stood up, smiled sweetly, and said, "Actually, we’re just studying. You should try it—might help with whatever’s making you so bitter." (Okay, maybe not mature, but SATISFYING.) Eyeliner Girl stormed off. Riya looked at me like I’d grown a second head. Then she burst out laughing. "Since when do you have comebacks?"  The walk home was… heavy. Riya admitted she’d been feeling torn between friend groups. Priya bluntly said, "Pick a side." Aadi, surprisingly, was the voice of reason: "Or just be friends with whoever you want? It’s not a war." (Since when is Aadi the wise one?)  Now I’m eating cold pizza over my biology textbook. My brain is fried, but my heart feels weirdly light. Maybe friendships don’t have to be allornothing. Maybe people can grow and change and still find their way back.  Signing off,  Durva  P.S. — Riya just texted: "Thanks for having my back today." Followed by: "Also, mitochondria are the powerhouse of the cell. LEARN IT."    Want Friday’s entry? Last school day before midterms = maximum chaos incoming. 😈
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text:
+
+• The date is April 3, 2025, a Thursday.
+• The narrator, Durva, has a midterm test in 48 hours and is panicking about not knowing that mitochondria are the powerhouse of the cell, not "the cell's little batteries".
+• Durva's friends Riya, Priya, and Aadi help her study for the test at the library.
+• Riya has new friends, and one of them makes a comment that upsets her, but Durva stands up for her.
+• The group discusses Riya's torn feelings between friend groups, and Aadi suggests it's possible to be friends with multiple people without picking sides.
+• Durva reflects on the importance of friendships and growth, feeling a sense of relief and lightness after the study session.
+--------------------------------------
+
+[Sat Mar 29 09:12:47 UTC 2025]
+User Input: April 4, 2025 (Friday)  "PreExam Chaos and a Midnight Revelation"  The school was buzzing with lastminute panic today. Even the teachers looked stressed—Mr. Sharma kept mixing up his words and accidentally called the periodic table "that chart with the colorful squares." (We're all doomed.)  At lunch, our table looked like a war zone: Priya's highlighters exploded all over her notes, Aadi was muttering math formulas like a mad scientist, and Riya had taped a "DO NOT DISTURB  BRAIN AT MAXIMUM CAPACITY" sign to her forehead (she meant capacity, but none of us had the heart to correct her). I was so desperate I actually read the textbook—that's how you know things were dire.  The best/worst part? Aadi bet me I couldn't memorize all the physics formulas before 3 PM. Loser buys winner bubble tea. I crammed so hard I gave myself a headache... and then completely blanked during our practice quiz. Aadi grinned like the Cheshire Cat when I handed him 120 rupees after school. (But then Riya "accidentally" spilled her mango slushie on him, so karma wins.)  After dinner, the four of us had a disaster Zoom study session that devolved into:  1. Debating whether Mr. Sharma dyes his hair (that black is NOT natural)  2. Trying to remember the quadratic formula to the tune of "Baby Shark"  3. Priya dramatically reading our seventh grade chat logs (why did we use so many emojis? Why?)  At midnight, Riya suddenly got quiet. Then she said, "I think I've been an idiot. You guys... you're my real friends." Cue three simultaneous "awwws" and Aadi pretending to wipe away tears while eating chips directly into his microphone.  Now I'm in bed with my notes scattered everywhere, too tired to study but too wired to sleep. Midterms start Monday. We're unprepared. My brain is mush. But for the first time in months, our group chat is buzzing nonstop—full of stupid memes and voice notes of Priya singing chemical equations like pop songs.  Maybe some things are more important than perfect grades.  Signing off,  Durva  P.S. — Just got a notification that Riya changed the group chat name to "The Brain Dead Squad (Midterm Survivors)". Accurate.
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text in bullet point format:
+
+• The story takes place on April 4, 2025, a Friday.
+• The school is having a last-minute panic before midterms, which start on Monday.
+• The narrator, Durva, and her friends (Aadi, Priya, and Riya) are studying together for their exams.
+• The group has a disaster Zoom study session that devolves into non-academic activities.
+• Riya has a revelation at midnight, realizing that her friends are her "real friends".
+• The group chat becomes active again, filled with memes and voice notes.
+• Riya changes the group chat name to "The Brain Dead Squad (Midterm Survivors)".
+--------------------------------------
+
+[Sat Mar 29 09:13:10 UTC 2025]
+User Input: Want the weekend entry? Cue: Allnighters, emotional breakdowns, and questionable study snacks! 🍵📚April 5, 2025 (Saturday)  "Study Hell and a SugarFueled Breakdown"  I woke up at noon to 27 missed messages—Priya had been spamming the group chat since 7 AM with increasingly unhinged study reminders. The last one read: "IF I HAVE TO MEMORIZE ONE MORE CHEMICAL EQUATION I WILL LITERALLY COMBUST." Mood.  Dragged myself to Riya’s house for what she called "Operation Midterm Massacre." Her bedroom looked like a stationery store exploded—every surface covered in flashcards, sticky notes, and halfempty energy drinks. Aadi showed up with "brain food" (read: a familysize bag of gummy bears and Red Bull). Priya took one look at it and said, "We’re all going to die."  We tried to study. Key word: tried. Highlights include:   Aadi attempting to explain calculus using football metaphors ("If the equation is the field, the derivative is like—" NO.)   Me accidentally highlighting my entire history textbook (Riya: "Durva, that’s not how this works.")   Priya having an existential crisis over organic chemistry ("Who decided carbon gets to have SIX bonds? WHO?!")  By 6 PM, we were delirious. Riya started laughing uncontrollably at the word "mitochondria," Aadi fell asleep midsentence, and Priya and I gave up and FaceTimed our class topper, Neha, to beg for help. She took pity on us and explained an entire semester’s worth of bio in 20 minutes (bless her).  The real drama happened when Riya’s mom walked in with pizza. Aadi woke up immediately, grabbed a slice, and somehow got marinara sauce on the ceiling. We spent the next ten minutes trying to clean it before Riya’s dad noticed, which resulted in:  1. Priya standing on a chair with a wet wipe  2. Me holding her ankles so she didn’t fall  3. Riya wheezing "This is the dumbest thing we’ve ever done"  4. Aadi taking a photo instead of helping (now our new group chat icon)  Now it’s 1 AM. I’m home, covered in highlighter ink and gummy bear residue. My notes make no sense. My brain is fried. But for some reason, I’m not even that scared for Monday anymore.  Signing off,  Durva  P.S. — Just got a text from Aadi: "If we fail, we can always run away and start a gummy bear farm." Priya replied: "I’m in." Riya added: "As long as there’s pizza."    Want Sunday’s entry? Final countdown to midterms… and possibly the last moments of our sanity. 😵‍💫
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text in bullet point format:
+
+• The event described takes place on April 5, 2025 (Saturday).
+• The main characters involved are Durva, Priya, Riya, Aadi, and Neha.
+• The group is studying for midterms, specifically subjects like calculus, history, and organic chemistry.
+• They gather at Riya's house for a study session, which becomes chaotic and delirious as the day progresses.
+• They experience various mishaps, including Aadi spilling marinara sauce on the ceiling and Priya having an existential crisis over organic chemistry.
+--------------------------------------
+
+[Sat Mar 29 09:13:27 UTC 2025]
+User Input: April 6, 2025 (Sunday)  "The Calm Before the Storm (Mostly Just Storm)"  I woke up at 10 AM to the sound of my own panic. Midterms start tomorrow. My stomach did a backflip. I immediately texted the group chat: "EMERGENCY STUDY MEETING. MY HOUSE. NOW."  Priya arrived first, looking like she hadn't slept (she hadn't), carrying a stack of notes thicker than our math textbook. Riya came next with bloodshot eyes and two thermoses of suspiciously strong coffee ("My mom's Cuban blend—it'll make you see sounds"). Aadi showed up last, wearing sunglasses indoors and muttering "Why do we do this to ourselves?"  We transformed my room into a war room:   Whiteboard covered in frantic equations   Every surface sticky with energy drink spills   My little brother Arjun banned after he "accidentally" ate Aadi's last Snickers  The lowlights:  1. The Great Physics Meltdown  We spent 45 minutes arguing about Newton's Laws before realizing we'd been studying the wrong chapter. Riya screamed into a pillow.  2. The Betrayal  Priya caught me doodling in my notebook instead of studying. In my defense, drawing Mrs. Kapoor as a dragon was stress relief.  3. The Sugar Crash  After consuming approximately 17 pounds of junk food, we all hit a wall at 4 PM and collectively faceplanted on my bed for a "power nap" that lasted two hours.  The real moment came at sunset. We were exhausted, covered in ink stains, and slightly delirious when Riya suddenly said, "No matter what happens tomorrow... at least we failed together."  It should've been depressing. Instead, we all started laughing like maniacs. Aadi did his terrible impression of Mr. Sharma, Priya reenacted her chemistry meltdown, and I may have accidentally snorted soda out my nose. For a second, the stress didn't matter.  Now it's midnight. My textbooks are still open. My brain feels like overcooked noodles. But there's a weird peace in knowing whatever happens tomorrow, I'm not alone in this mess.  Signing off,  Durva  P.S. — Just got a message from the group:  Aadi: "If we all fail, we can start a band called 'The Textbook Burners.'"  Priya: "I call dibs on tambourine."  Riya: "We'd be terrible. I'm in."
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text in bullet point format:
+
+• The narrator, Durva, wakes up on April 6, 2025, panicked about midterms starting the next day.
+• Durva calls an emergency study meeting with friends Priya, Riya, and Aadi at their house.
+• The group studies together, experiencing various struggles and mishaps, but eventually finds comfort in their shared experience.
+• The group consists of friends Durva, Priya, Riya, and Aadi, who are all preparing for midterms together.
+--------------------------------------
+
+[Sat Mar 29 09:13:46 UTC 2025]
+User Input: Tomorrow: MIDTERM ARMAGEDDON. Wish us luck. We'll need it. 😭✏️April 7, 2025 (Monday)  "Midterm Apocalypse: Day One"  I woke up with my stomach in knots. The kind of nervous where you're 80% sure you're going to either throw up or cry before first period. My uniform was wrinkled, my hair was a disaster, and I forgot to pack lunch—none of that mattered today. Today was about survival.  The school hallway looked like a scene from The Walking Dead—everyone clutching lastminute notes with dark circles under their eyes. Priya met me at my locker, vibrating with nervous energy. "I dreamt about chemical equations last night. I think I'm losing it." Aadi stumbled up to us looking like he'd been hit by a bus, muttering "Why did I think three hours of sleep was enough?"  First up: Biology. Mrs. Kapoor's exams are legendary for being brutal, but today's was... suspiciously fair? Either she took pity on us, or I actually absorbed something during our chaotic study sessions. The essay question was on cellular respiration (thank you, Riya's colorcoded flashcards!). I wrote until my hand cramped, and when I looked up, Priya gave me a subtle thumbsup from across the room.  The real drama came during Physics. Halfway through the test, Aadi's calculator died. Like, fullon dramatic beeping and shutting down. Mr. Sharma sighed and tossed him a spare, but not before Aadi had a minor panic attack. I passed him a note: "U got this. Remember the gummy bear farm backup plan." He snorted so loud he got shushed.  Lunch was a tense affair. Riya kept replaying every answer she gave in bio, convinced she mixed up meiosis and mitosis ("They both start with M! It's a setup!"). Priya stressate two entire samosas in record time. Aadi, the chaotic neutral of our group, decided now was the perfect time to start a debate about whether aliens would understand our math if they found our textbooks. (We let him ramble—it was oddly calming.)  The final boss of the day? History essay. My hand was still sore from bio, but I channeled all our latenight study chaos into writing what might be my magnum opus: "The Industrial Revolution: A Hot Mess Express." (Don't worry, I made the title more academic before turning it in.)  Now I'm home, lying on my floor like a starfish. My brain is officially mush. My hand may never recover. But Day One is done.  Signing off,  Durva  P.S. — Group chat at 9 PM:  Aadi: "If we survive this week, I'm sleeping for a year."  Priya: "If we fail, we fake our deaths and move to Goa."  Riya: "I already packed my sunscreen."  Me: "...Are we sure studying was the right life choice?"    Tomorrow: Math midterm. Pray for us. 📚��
+Bot Response: null
+Extracted Facts:
+Here are the key facts extracted from the text in bullet point format:
+
+• The narrator, Durva, is experiencing a stressful day due to midterms at school.
+• The date is April 7, 2025 (Monday).
+• The narrator has exams in Biology, Physics, and History on the same day.
+• The Biology exam was "suspiciously fair" and the narrator felt prepared thanks to Riya's color-coded flashcards.
+• Aadi's calculator died during the Physics exam, causing a brief panic.
+• The group of friends (Durva, Priya, Aadi, and Riya) have a tense lunch break, with each person dealing with their own exam-related anxieties.
+• The final exam of the day is a History essay, which Durva completes despite hand soreness from earlier exams.
+• The group plans to have a group chat at 9 PM to discuss their experiences and outcomes.
+--------------------------------------
+ 
