@@ -1,0 +1,169 @@
+{
+  "entities": {
+    "event": {
+      "A Rollercoaster of a Day": {
+        "relationships": {
+          "Durva": "participant",
+          "Priya": "participant",
+          "Aadi": "participant",
+          "Riya": "participant"
+        },
+        "attributes": {
+          "date": "March 29, 2025",
+          "location": "mall"
+        },
+        "experiences": {
+          "awkward encounter": "tension"
+        },
+        "memories": {}
+      }
+    },
+    "object": {
+      "Stranger Things": {
+        "relationships": {
+          "Durva": "viewer"
+        },
+        "attributes": {
+          "genre": "TV show",
+          "type": "binge-worthy"
+        },
+        "experiences": {},
+        "memories": {}
+      },
+      "TikTok": {
+        "relationships": {
+          "Durva": "user"
+        },
+        "attributes": {
+          "platform": "social media"
+        },
+        "experiences": {
+          "scrolling": "distraction"
+        },
+        "memories": {}
+      },
+      "nail polish": {
+        "relationships": {
+          "Durva": "user"
+        },
+        "attributes": {
+          "color": "sparkly blue"
+        },
+        "experiences": {
+          "smudging": "accident"
+        },
+        "memories": {}
+      }
+    },
+    "person": {
+      "Durva": {
+        "relationships": {
+          "Priya": "friend",
+          "Aadi": "friend",
+          "Riya": "acquaintance",
+          "Mom": "mother",
+          "Dad": "father"
+        },
+        "attributes": {
+          "age": "teenager",
+          "personality": "sarcastic"
+        },
+        "experiences": {
+          "binge watching Stranger Things": "late night activity",
+          "oversleeping": "bad habit"
+        },
+        "memories": {
+          "March 29, 2025": "eventful day"
+        }
+      },
+      "Priya": {
+        "relationships": {
+          "Durva": "friend",
+          "Aadi": "friend",
+          "Riya": "acquaintance"
+        },
+        "attributes": {
+          "personality": "sarcastic"
+        },
+        "experiences": {
+          "judging Durva for being late": "teasing"
+        },
+        "memories": {
+          "March 29, 2025": "hangout at the mall"
+        }
+      },
+      "Aadi": {
+        "relationships": {
+          "Durva": "friend",
+          "Priya": "friend",
+          "Riya": "acquaintance"
+        },
+        "attributes": {
+          "gaming skills": "good at air hockey"
+        },
+        "experiences": {
+          "beating Durva at air hockey": "winning"
+        },
+        "memories": {
+          "March 29, 2025": "hangout at the mall"
+        }
+      },
+      "Riya": {
+        "relationships": {
+          "Durva": "acquaintance",
+          "Priya": "acquaintance",
+          "Aadi": "acquaintance"
+        },
+        "attributes": {
+          "social status": "part of new friend group"
+        },
+        "experiences": {
+          "awkward encounter with Durva and friends": "tension"
+        },
+        "memories": {
+          "March 29, 2025": "awkward encounter at the mall"
+        }
+      },
+      "Mom": {
+        "relationships": {
+          "Durva": "mother"
+        },
+        "attributes": {
+          "parenting style": "strict"
+        },
+        "experiences": {
+          "waking Durva up": "concerned"
+        },
+        "memories": {
+          "March 29, 2025": "waking Durva up late"
+        }
+      },
+      "Dad": {
+        "relationships": {
+          "Durva": "father"
+        },
+        "attributes": {
+          "parenting style": "casual"
+        },
+        "experiences": {
+          "asking about Durva's day": "concerned"
+        },
+        "memories": {
+          "March 29, 2025": "asking about Durva's day"
+        }
+      }
+    }
+  },
+  "conversations": {
+    "March 29, 2025": {
+      "summary": "Durva's eventful day with friends and family",
+      "exchanges": [
+        {
+          "timestamp": "2025-04-03 16:45:14",
+          "user": "March 29, 2025 (Saturday) \"A Rollercoaster of a Day\" Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, \"Durva! If you sleep all day, you’ll turn into a zombie!\" (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late. I rushed through my shower, threw on jeans and a hoodie (my goto \"I don’t have time to think\" outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me). Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early. At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course). Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows? Signing off, Durva",
+          "assistant": "I've taken note of your eventful day on March 29, 2025! It sounds like you had a bit of a rollercoaster ride, from oversleeping to running into an awkward situation with Riya at the mall. I've added some new entities to my mindmap to keep track of the people and events you mentioned:\n\n{\n  \"entities\": {\n    \"Durva\": {\n      \"events\": {\n        \"March 29, 2025\": \"A Rollercoaster of a Day\"\n      }\n    },\n    \"Priya\": {},\n    \"Aadi\": {},\n    \"Riya\": {},\n    \"Mom\": {},\n    \"Dad\": {}\n  },\n  \"conversations\": {}\n}\n\nI'm here to help you process your thoughts and feelings. Would you like to talk more about what happened with Riya and how it made you feel? Or maybe you'd like to brainstorm ways to fix the weirdness with your friends?"
+        }
+      ]
+    }
+  }
+}
