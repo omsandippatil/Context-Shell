@@ -1,169 +1,454 @@
 {
   "entities": {
-    "event": {
-      "A Rollercoaster of a Day": {
+    "person": {
+      "Aadi": {
         "relationships": {
-          "Durva": "participant",
-          "Priya": "participant",
-          "Aadi": "participant",
-          "Riya": "participant"
+          "Durva": {
+            "type": "friend",
+            "details": ""
+          },
+          "Priya": {
+            "type": "friend",
+            "details": ""
+          }
         },
         "attributes": {
-          "date": "March 29, 2025",
-          "location": "mall"
+          "age": ""
         },
-        "experiences": {
-          "awkward encounter": "tension"
+        "conversations": [
+          {
+            "date": "2025-03-29",
+            "time": "",
+            "dialogue": [
+              {
+                "speaker": "Aadi",
+                "text": "beat Durva at air hockey"
+              }
+            ],
+            "topics": [
+              "meeting at mall",
+              "beating Durva at air hockey"
+            ],
+            "sentiment": "playful",
+            "location": "mall",
+            "context": "socializing",
+            "key_points": [
+              "waited for Durva at the mall",
+              "beat Durva at air hockey"
+            ],
+            "summary": "Aadi and Priya meet Durva at the mall, playing air hockey and joking around"
+          }
+        ]
+      },
+      "Dad": {
+        "relationships": {
+          "Durva": {
+            "type": "family",
+            "details": "father-daughter"
+          }
         },
-        "memories": {}
+        "attributes": {
+          "age": ""
+        },
+        "conversations": [
+          {
+            "date": "2025-03-29",
+            "time": "",
+            "dialogue": [
+              {
+                "speaker": "Dad",
+                "text": "asking about Durva's day"
+              }
+            ],
+            "topics": [
+              "asking about Durva's day"
+            ],
+            "sentiment": "concerned",
+            "location": "home",
+            "context": "daily life",
+            "key_points": [
+              "asked Durva about her day"
+            ],
+            "summary": "Dad asks Durva about her day, showing concern"
+          }
+        ]
+      },
+      "Durva": {
+        "relationships": {
+          "Mom": {
+            "type": "family",
+            "details": "mother-daughter"
+          },
+          "Priya": {
+            "type": "friend",
+            "details": ""
+          },
+          "Aadi": {
+            "type": "friend",
+            "details": ""
+          },
+          "Riya": {
+            "type": "acquaintance",
+            "details": "awkward encounter"
+          },
+          "Dad": {
+            "type": "family",
+            "details": "father-daughter"
+          }
+        },
+        "attributes": {
+          "age": ""
+        },
+        "conversations": [
+          {
+            "date": "2025-03-29",
+            "time": "",
+            "dialogue": [
+              {
+                "speaker": "Durva",
+                "text": "A Rollercoaster of a Day"
+              }
+            ],
+            "topics": [
+              "Stranger Things",
+              "binge watching",
+              "late night",
+              "Mom",
+              "Priya",
+              "Aadi",
+              "mall",
+              "sunglasses",
+              "selfies",
+              "air hockey",
+              "Riya",
+              "awkward encounter",
+              "TikTok",
+              "nail painting"
+            ],
+            "sentiment": "neutral/melancholic",
+            "location": "home",
+            "context": "daily life",
+            "key_points": [
+              "stayed up late watching Stranger Things",
+              "ran into Riya at the mall",
+              "felt down about the encounter"
+            ],
+            "summary": "Durva reflects on her day, including staying up late, running into Riya, and feeling down about the encounter"
+          }
+        ]
+      },
+      "Mom": {
+        "relationships": {
+          "Durva": {
+            "type": "family",
+            "details": "mother-daughter"
+          }
+        },
+        "attributes": {
+          "age": ""
+        },
+        "conversations": [
+          {
+            "date": "2025-03-29",
+            "time": "9:30",
+            "dialogue": [
+              {
+                "speaker": "Mom",
+                "text": "Durva! If you sleep all day, you’ll turn into a zombie!"
+              }
+            ],
+            "topics": [
+              "Durva sleeping late"
+            ],
+            "sentiment": "concerned",
+            "location": "home",
+            "context": "daily life",
+            "key_points": [
+              "banged on Durva's door to wake her up"
+            ],
+            "summary": "Mom wakes Durva up, concerned about her sleeping late"
+          }
+        ]
+      },
+      "Priya": {
+        "relationships": {
+          "Durva": {
+            "type": "friend",
+            "details": ""
+          },
+          "Aadi": {
+            "type": "friend",
+            "details": ""
+          }
+        },
+        "attributes": {
+          "age": ""
+        },
+        "conversations": [
+          {
+            "date": "2025-03-29",
+            "time": "",
+            "dialogue": [
+              {
+                "speaker": "Priya",
+                "text": "judging Durva for being late"
+              }
+            ],
+            "topics": [
+              "meeting at mall",
+              "judging Durva for being late"
+            ],
+            "sentiment": "playful",
+            "location": "mall",
+            "context": "socializing",
+            "key_points": [
+              "waited for Durva at the mall",
+              "made a sarcastic comment about Riya"
+            ],
+            "summary": "Priya and Aadi meet Durva at the mall, joking about her being late"
+          }
+        ]
+      },
+      "Riya": {
+        "relationships": {
+          "Durva": {
+            "type": "acquaintance",
+            "details": "awkward encounter"
+          }
+        },
+        "attributes": {
+          "age": ""
+        },
+        "conversations": [
+          {
+            "date": "2025-03-29",
+            "time": "",
+            "dialogue": [
+              {
+                "speaker": "Riya",
+                "text": "awkward encounter"
+              }
+            ],
+            "topics": [
+              "awkward encounter at mall"
+            ],
+            "sentiment": "awkward",
+            "location": "mall",
+            "context": "socializing",
+            "key_points": [
+              "ran into Durva, Priya, and Aadi at the mall"
+            ],
+            "summary": "Riya has an awkward encounter with Durva and her friends at the mall"
+          }
+        ]
+      }
+    },
+    "place": {
+      "home": {
+        "memories": [
+          {
+            "date": "2025-03-29",
+            "event": "woke up late",
+            "details": "Mom banged on door"
+          },
+          {
+            "date": "2025-03-29",
+            "event": "talked to Dad",
+            "details": "asked about day"
+          }
+        ],
+        "attributes": {
+          "location": "personal"
+        }
+      },
+      "mall": {
+        "memories": [
+          {
+            "date": "2025-03-29",
+            "event": "met Priya and Aadi",
+            "details": "tried on sunglasses and took selfies"
+          },
+          {
+            "date": "2025-03-29",
+            "event": "ran into Riya",
+            "details": "awkward encounter"
+          }
+        ],
+        "attributes": {
+          "location": "local"
+        }
+      }
+    },
+    "organization": {},
+    "event": {
+      "TikTok scrolling": {
+        "date": "2025-03-29",
+        "participants": [
+          "Durva"
+        ],
+        "location": "home",
+        "details": "scrolled through TikTok"
+      },
+      "air hockey": {
+        "date": "2025-03-29",
+        "participants": [
+          "Durva",
+          "Priya",
+          "Aadi"
+        ],
+        "location": "mall",
+        "details": "played air hockey"
+      },
+      "awkward encounter": {
+        "date": "2025-03-29",
+        "participants": [
+          "Durva",
+          "Riya"
+        ],
+        "location": "mall",
+        "details": "ran into Riya"
+      },
+      "binge watching": {
+        "date": "2025-03-29 2:00:00",
+        "participants": [
+          "Durva"
+        ],
+        "location": "home",
+        "details": "watched Stranger Things"
+      },
+      "meeting at mall": {
+        "date": "2025-03-29",
+        "participants": [
+          "Durva",
+          "Priya",
+          "Aadi"
+        ],
+        "location": "mall",
+        "details": "tried on sunglasses and took selfies"
+      },
+      "nail painting": {
+        "date": "2025-03-29",
+        "participants": [
+          "Durva"
+        ],
+        "location": "home",
+        "details": "painted nails blue"
       }
     },
     "object": {
       "Stranger Things": {
-        "relationships": {
-          "Durva": "viewer"
-        },
+        "category": "series",
         "attributes": {
-          "genre": "TV show",
-          "type": "binge-worthy"
+          "genre": "",
+          "platform": "",
+          "rating": "",
+          "summary": "",
+          "release_date": "",
+          "duration": "",
+          "episodes": "",
+          "seasons": "",
+          "cast": "",
+          "awards": "",
+          "reviews": ""
         },
-        "experiences": {},
-        "memories": {}
+        "facts": [
+          "watched by Durva",
+          "binge watched"
+        ]
       },
-      "TikTok": {
-        "relationships": {
-          "Durva": "user"
-        },
+      "sunglasses": {
+        "category": "clothing",
         "attributes": {
-          "platform": "social media"
+          "brand": "",
+          "style": "",
+          "color": ""
         },
-        "experiences": {
-          "scrolling": "distraction"
-        },
-        "memories": {}
-      },
-      "nail polish": {
-        "relationships": {
-          "Durva": "user"
-        },
-        "attributes": {
-          "color": "sparkly blue"
-        },
-        "experiences": {
-          "smudging": "accident"
-        },
-        "memories": {}
-      }
-    },
-    "person": {
-      "Durva": {
-        "relationships": {
-          "Priya": "friend",
-          "Aadi": "friend",
-          "Riya": "acquaintance",
-          "Mom": "mother",
-          "Dad": "father"
-        },
-        "attributes": {
-          "age": "teenager",
-          "personality": "sarcastic"
-        },
-        "experiences": {
-          "binge watching Stranger Things": "late night activity",
-          "oversleeping": "bad habit"
-        },
-        "memories": {
-          "March 29, 2025": "eventful day"
-        }
-      },
-      "Priya": {
-        "relationships": {
-          "Durva": "friend",
-          "Aadi": "friend",
-          "Riya": "acquaintance"
-        },
-        "attributes": {
-          "personality": "sarcastic"
-        },
-        "experiences": {
-          "judging Durva for being late": "teasing"
-        },
-        "memories": {
-          "March 29, 2025": "hangout at the mall"
-        }
-      },
-      "Aadi": {
-        "relationships": {
-          "Durva": "friend",
-          "Priya": "friend",
-          "Riya": "acquaintance"
-        },
-        "attributes": {
-          "gaming skills": "good at air hockey"
-        },
-        "experiences": {
-          "beating Durva at air hockey": "winning"
-        },
-        "memories": {
-          "March 29, 2025": "hangout at the mall"
-        }
-      },
-      "Riya": {
-        "relationships": {
-          "Durva": "acquaintance",
-          "Priya": "acquaintance",
-          "Aadi": "acquaintance"
-        },
-        "attributes": {
-          "social status": "part of new friend group"
-        },
-        "experiences": {
-          "awkward encounter with Durva and friends": "tension"
-        },
-        "memories": {
-          "March 29, 2025": "awkward encounter at the mall"
-        }
-      },
-      "Mom": {
-        "relationships": {
-          "Durva": "mother"
-        },
-        "attributes": {
-          "parenting style": "strict"
-        },
-        "experiences": {
-          "waking Durva up": "concerned"
-        },
-        "memories": {
-          "March 29, 2025": "waking Durva up late"
-        }
-      },
-      "Dad": {
-        "relationships": {
-          "Durva": "father"
-        },
-        "attributes": {
-          "parenting style": "casual"
-        },
-        "experiences": {
-          "asking about Durva's day": "concerned"
-        },
-        "memories": {
-          "March 29, 2025": "asking about Durva's day"
-        }
+        "facts": [
+          "tried on by Durva",
+          "taken selfies with"
+        ]
       }
     }
   },
-  "conversations": {
-    "March 29, 2025": {
-      "summary": "Durva's eventful day with friends and family",
-      "exchanges": [
+  "conversations_by_date": {
+    "2025-03-29": {
+      "people": [
+        "Durva",
+        "Mom",
+        "Priya",
+        "Aadi",
+        "Riya",
+        "Dad"
+      ],
+      "conversations": [
         {
-          "timestamp": "2025-04-03 16:45:14",
-          "user": "March 29, 2025 (Saturday) \"A Rollercoaster of a Day\" Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, \"Durva! If you sleep all day, you’ll turn into a zombie!\" (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late. I rushed through my shower, threw on jeans and a hoodie (my goto \"I don’t have time to think\" outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me). Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early. At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course). Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows? Signing off, Durva",
-          "assistant": "I've taken note of your eventful day on March 29, 2025! It sounds like you had a bit of a rollercoaster ride, from oversleeping to running into an awkward situation with Riya at the mall. I've added some new entities to my mindmap to keep track of the people and events you mentioned:\n\n{\n  \"entities\": {\n    \"Durva\": {\n      \"events\": {\n        \"March 29, 2025\": \"A Rollercoaster of a Day\"\n      }\n    },\n    \"Priya\": {},\n    \"Aadi\": {},\n    \"Riya\": {},\n    \"Mom\": {},\n    \"Dad\": {}\n  },\n  \"conversations\": {}\n}\n\nI'm here to help you process your thoughts and feelings. Would you like to talk more about what happened with Riya and how it made you feel? Or maybe you'd like to brainstorm ways to fix the weirdness with your friends?"
+          "time": "9:30",
+          "dialogue": [
+            {
+              "speaker": "Mom",
+              "text": "Durva! If you sleep all day, you’ll turn into a zombie!"
+            }
+          ],
+          "summary": "Mom wakes Durva up, concerned about her sleeping late"
+        },
+        {
+          "time": "",
+          "dialogue": [
+            {
+              "speaker": "Priya",
+              "text": "judging Durva for being late"
+            }
+          ],
+          "summary": "Priya and Aadi meet Durva at the mall, joking about her being late"
+        },
+        {
+          "time": "",
+          "dialogue": [
+            {
+              "speaker": "Riya",
+              "text": "awkward encounter"
+            }
+          ],
+          "summary": "Riya has an awkward encounter with Durva and her friends at the mall"
+        },
+        {
+          "time": "",
+          "dialogue": [
+            {
+              "speaker": "Dad",
+              "text": "asking about Durva's day"
+            }
+          ],
+          "summary": "Dad asks Durva about her day, showing concern"
         }
       ]
     }
-  }
+  },
+  "facts": {
+    "Durva stayed up late": {
+      "statement": "Durva stayed up late watching Stranger Things",
+      "related_entities": [
+        "Durva",
+        "Stranger Things"
+      ],
+      "source": "Durva's journal",
+      "date_recorded": "2025-03-29 2:00:00"
+    },
+    "Mom banged on door": {
+      "statement": "Mom banged on Durva's door to wake her up",
+      "related_entities": [
+        "Durva",
+        "Mom"
+      ],
+      "source": "Durva's journal",
+      "date_recorded": "2025-03-29 9:30"
+    }
+  },
+  "logs": [
+    {
+      "timestamp": "2025-04-04 17:13:51",
+      "user_input": "March 29, 2025 (Saturday) \"A Rollercoaster of a Day\" Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, \"Durva! If you sleep all day, you’ll turn into a zombie!\" (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late. I rushed through my shower, threw on jeans and a hoodie (my goto \"I don’t have time to think\" outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me). Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early. At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course). Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows? Signing off, Durva",
+      "assistant_response": "{\n   \"people\":[\n      {\n         \"name\":\"Durva\",\n         \"category\":\"person\",\n         \"age\":\"\",\n         \"conversations\":[\n            {\n               \"date\":\"2025-03-29\",\n               \"summary\":\"A Rollercoaster of a Day\",\n               \"topics\":[\n                  \"Stranger Things\",\n                  \"binge watching\",\n                  \"late night\",\n                  \"Mom\",\n                  \"Priya\",\n                  \"Aadi\",\n                  \"mall\",\n                  \"sunglasses\",\n                  \"selfies\",\n                  \"air hockey\",\n                  \"Riya\",\n                  \"awkward encounter\",\n                  \"TikTok\",\n                  \"nail painting\"\n               ],\n               \"sentiment\":\"neutral/melancholic\",\n               \"details\":[\n                  {\n                     \"time\":\"2 AM\",\n                     \"event\":\"binge watching Stranger Things\"\n                  },\n                  {\n                     \"time\":\"9:30\",\n                     \"event\":\"Mom banged on door\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"met Priya and Aadi at mall\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"tried on sunglasses and took selfies\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"played air hockey\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"ran into Riya\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"left mall early\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"talked to Dad\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"scrolled through TikTok and painted nails\"\n                  }\n               ]\n            }\n         ]\n      },\n      {\n         \"name\":\"Mom\",\n         \"category\":\"person\",\n         \"age\":\"\",\n         \"conversations\":[\n            {\n               \"date\":\"2025-03-29\",\n               \"summary\":\"\",\n               \"topics\":[\n                  \"Durva sleeping late\"\n               ],\n               \"sentiment\":\"concerned\",\n               \"details\":[\n                  {\n                     \"time\":\"9:30\",\n                     \"event\":\"banged on Durva's door\"\n                  }\n               ]\n            }\n         ]\n      },\n      {\n         \"name\":\"Priya\",\n         \"category\":\"person\",\n         \"age\":\"\",\n         \"conversations\":[\n            {\n               \"date\":\"2025-03-29\",\n               \"summary\":\"\",\n               \"topics\":[\n                  \"meeting at mall\",\n                  \"judging Durva for being late\"\n               ],\n               \"sentiment\":\"playful\",\n               \"details\":[\n                  {\n                     \"time\":\"\",\n                     \"event\":\"waited for Durva at mall\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"made sarcastic comment about Riya\"\n                  }\n               ]\n            }\n         ]\n      },\n      {\n         \"name\":\"Aadi\",\n         \"category\":\"person\",\n         \"age\":\"\",\n         \"conversations\":[\n            {\n               \"date\":\"2025-03-29\",\n               \"summary\":\"\",\n               \"topics\":[\n                  \"meeting at mall\",\n                  \"beating Durva at air hockey\"\n               ],\n               \"sentiment\":\"playful\",\n               \"details\":[\n                  {\n                     \"time\":\"\",\n                     \"event\":\"waited for Durva at mall\"\n                  },\n                  {\n                     \"time\":\"\",\n                     \"event\":\"beat Durva at air hockey\"\n                  }\n               ]\n            }\n         ]\n      },\n      {\n         \"name\":\"Riya\",\n         \"category\":\"person\",\n         \"age\":\"\",\n         \"conversations\":[\n            {\n               \"date\":\"2025-03-29\",\n               \"summary\":\"\",\n               \"topics\":[\n                  \"awkward encounter at mall\"\n               ],\n               \"sentiment\":\"awkward\",\n               \"details\":[\n                  {\n                     \"time\":\"\",\n                     \"event\":\"ran into Durva, Priya, and Aadi at mall\"\n                  }\n               ]\n            }\n         ]\n      },\n      {\n         \"name\":\"Dad\",\n         \"category\":\"person\",\n         \"age\":\"\",\n         \"conversations\":[\n            {\n               \"date\":\"2025-03-29\",\n               \"summary\":\"\",\n               \"topics\":[\n                  \"asking about Durva's day\"\n               ],\n               \"sentiment\":\"concerned\",\n               \"details\":[\n                  {\n                     \"time\":\"\",\n                     \"event\":\"asked Durva about her day\"\n                  }\n               ]\n            }\n         ]\n      }\n   ],\n   \"media\":[\n      {\n         \"title\":\"Stranger Things\",\n         \"category\":\"series\",\n         \"genre\":\"\",\n         \"platform\":\"\",\n         \"rating\":\"\",\n         \"summary\":\"\",\n         \"release_date\":\"\",\n         \"duration\":\"\",\n         \"episodes\":\"\",\n         \"seasons\":\"\",\n         \"cast\":\"\",\n         \"awards\":\"\",\n         \"reviews\":\"\",\n         \"related\":[\n            {\n               \"title\":\"\",\n               \"category\":\"\",\n               \"genre\":\"\",\n               \"platform\":\"\",\n               \"rating\":\"\",\n               \"summary\":\"\",\n               \"release_date\":\"\",\n               \"duration\":\"\",\n               \"episodes\":\"\",\n               \"seasons\":\"\",\n               \"cast\":\"\",\n               \"awards\":\"\",\n               \"reviews\":\"\",\n               \"related\":[\n\n               ]\n            }\n         ]\n      },\n      {\n         \"title\":\"\",\n         \"category\":\"\",\n         \"genre\":\"\",\n         \"platform\":\"\",\n         \"rating\":\"\",\n         \"summary\":\"\",\n         \"release_date\":\"\",\n         \"duration\":\"\",\n         \"episodes\":\"\",\n         \"seasons\":\"\",\n         \"cast\":\"\",\n         \"awards\":\"\",\n         \"reviews\":\"\",\n         \"related\":[\n\n         ]\n      }\n   ],\n   \"activities\":[\n      {\n         \"name\":\"binge watching\",\n         \"category\":\"activity\",\n         \"duration\":\"\",\n         \"start_time\":\"\",\n         \"end_time\":\"\",\n         \"details\":[\n            {\n               \"time\":\"\",\n               \"event\":\"binge watched Stranger Things\"\n            }\n         ]\n      },\n      {\n         \"name\":\"shopping\",\n         \"category\":\"activity\",\n         \"duration\":\"\",\n         \"start_time\":\"\",\n         \"end_time\":\"\",\n         \"details\":[\n            {\n               \"time\":\"\",\n               \"event\":\"tried on sunglasses\"\n            }\n         ]\n      },\n      {\n         \"name\":\"air hockey\",\n         \"category\":\"game\",\n         \"duration\":\"\",\n         \"start_time\":\"\",\n         \"end_time\":\"\",\n         \"details\":[\n            {\n               \"time\":\"\",\n               \"event\":\"played air hockey with Priya and Aadi\"\n            }\n         ]\n      },\n      {\n         \"name\":\"TikTok scrolling\",\n         \"category\":\"activity\",\n         \"duration\":\"\",\n         \"start_time\":\"\",\n         \"end_time\":\"\",\n         \"details\":[\n            {\n               \"time\":\"\",\n               \"event\":\"scrolled through TikTok\"\n            }\n         ]\n      },\n      {\n         \"name\":\"nail painting\",\n         \"category\":\"activity\",\n         \"duration\":\"\",\n         \"start_time\":\"\",\n         \"end_time\":\"\",\n         \"details\":[\n            {\n               \"time\":\"\",\n               \"event\":\"painted nails blue\"\n            }\n         ]\n      }\n   ]\n}"
+    }
+  ]
 }

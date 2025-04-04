@@ -1,18 +1,19 @@
 #!/bin/bash
- 
+
 # Configuration
 GROQ_API_KEY="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"
 MINDMAP_FILE="mindmap.json"
 MODEL="llama3-70b-8192"
 DATE=$(date +"%Y-%m-%d")
- 
+
+# Check for required commands
 for cmd in curl jq; do
     if ! command -v $cmd &>/dev/null; then
         echo "Error: $cmd is required but not installed. Please install it and try again."
         exit 1
     fi
 done
- 
+
 initialize_mindmap() {
     if [ ! -f "$MINDMAP_FILE" ]; then
         echo '{
@@ -21,47 +22,45 @@ initialize_mindmap() {
                 "place": {},
                 "organization": {},
                 "event": {},
-                "object": {},
-                "concept": {},
-                "conversation": {}
+                "object": {}
             },
-            "conversations": {}
+            "conversations_by_date": {},
+            "facts": {},
+            "logs": []
         }' | jq '.' > "$MINDMAP_FILE"
         echo "Created new mindmap file: $MINDMAP_FILE"
     fi
 }
- 
+
 escape_json() {
     echo "$1" | jq -Rs '.'
 }
- 
+
 call_groq() {
     local prompt="$1"
-    local system_message="$2"
     local max_retries=3
     local retry_count=0
     local response=""
-     
+    
     local payload=$(jq -n \
         --arg model "$MODEL" \
-        --arg system "$system_message" \
         --arg user "$prompt" \
         '{
             "model": $model,
             "temperature": 0.7,
+            "response_format": {"type": "json_object"},
             "messages": [
-                {"role": "system", "content": $system},
                 {"role": "user", "content": $user}
             ]
         }')
- 
+    
     while [ $retry_count -lt $max_retries ]; do
         response=$(curl -s -X POST "https://api.groq.com/openai/v1/chat/completions" \
             -H "Authorization: Bearer $GROQ_API_KEY" \
             -H "Content-Type: application/json" \
             -d "$payload")
-         
-        if echo "$response" | jq -e '.choices[0].message.content' &>/dev/null; then 
+        
+        if echo "$response" | jq -e '.choices[0].message.content' &>/dev/null; then
             echo "$response" | jq -r '.choices[0].message.content'
             return 0
         else
@@ -78,79 +77,108 @@ call_groq() {
 # Extract entities and details
 extract_entities() {
     local text="$1"
-    
-    local system_prompt="Extract key entities and details from this text and organize them into a structured mindmap.
+    local extract_prompt="Extract key entities and details from this text and organize them into a structured mindmap. Today's date is $DATE. Format your response STRICTLY as a valid JSON with the following structure:
 
-Format your response STRICTLY as a valid JSON with two main sections:
-1. 'entities': Categorize entities by type (person, place, organization, event, object, concept, conversation)
-2. 'metadata': Include conversation date and summary
-
-For each entity, extract:
-- 'relationships': connections to other entities
-- 'attributes': key characteristics
-- 'experiences': interactions or events involving the entity
-- 'memories': historical context related to the entity
-
-EXAMPLE OUTPUT FORMAT:
 {
   \"entities\": {
     \"person\": {
-      \"John\": {
-        \"relationships\": {\"Mary\": \"colleague\", \"Acme Inc\": \"employer\"},
-        \"attributes\": {\"role\": \"project manager\", \"expertise\": \"data science\"},
-        \"experiences\": {\"project_alpha\": \"leading development\"},
-        \"memories\": {\"joined_company\": \"2023-05-15\"}
+      \"[PersonName]\": {
+        \"relationships\": {
+          \"[RelatedEntityName]\": {
+            \"type\": \"[RelationshipType]\",
+            \"details\": \"[Optional details]\"
+          }
+        },
+        \"attributes\": {\"[AttributeName]\": \"[AttributeValue]\"},
+        \"conversations\": [
+          {
+            \"date\": \"YYYY-MM-DD\",
+            \"time\": \"HH:MM:SS\",
+            \"dialogue\": [
+              {\"speaker\": \"[Speaker]\", \"text\": \"[Text]\"}
+            ],
+            \"topics\": [\"[Topic1]\", \"[Topic2]\"],
+            \"sentiment\": \"[positive/negative/neutral]\",
+            \"location\": \"[Location]\",
+            \"context\": \"[Context of conversation]\",
+            \"key_points\": [\"[KeyPoint1]\", \"[KeyPoint2]\"],
+            \"summary\": \"[Detailed conversation summary]\"
+          }
+        ]
       }
     },
-    \"organization\": {
-      \"Acme Inc\": {
-        \"relationships\": {\"John\": \"employee\", \"Mary\": \"employee\"},
-        \"attributes\": {\"industry\": \"technology\", \"size\": \"medium\"},
-        \"experiences\": {\"project_alpha\": \"current major project\"},
-        \"memories\": {\"founded\": \"2010\"}
+    \"place\": {
+      \"[PlaceName]\": {
+        \"memories\": [
+          {
+            \"date\": \"YYYY-MM-DD HH:MM:SS\",
+            \"event\": \"[EventName]\",
+            \"details\": \"[EventDetails]\"
+          }
+        ],
+        \"attributes\": {\"[AttributeName]\": \"[AttributeValue]\"}
       }
     },
-    \"conversation\": {
-      \"Project Status Update\": {
-        \"relationships\": {\"John\": \"participant\", \"Mary\": \"participant\"},
-        \"attributes\": {\"topic\": \"project timeline\", \"outcome\": \"deadline extended\"},
-        \"experiences\": {},
-        \"memories\": {\"previous_meeting\": \"2025-03-27\"}
-      }
+    \"event\": {
+      \"[EventName]\": {
+        \"date\": \"YYYY-MM-DD HH:MM:SS\",
+        \"participants\": [\"[PersonName]\"],
+        \"location\": \"[PlaceName]\",
+        \"details\": \"[EventDetails]\"}
     },
     \"object\": {
-      \"Project Report\": {
-        \"relationships\": {\"John\": \"author\", \"Acme Inc\": \"owner\"},
-        \"attributes\": {\"format\": \"PDF\", \"length\": \"42 pages\"},
-        \"experiences\": {},
-        \"memories\": {\"last_updated\": \"2025-04-01\"}
+      \"[ObjectName]\": {
+        \"category\": \"[Category]\",
+        \"attributes\": {\"[AttributeName]\": \"[AttributeValue]\"},
+        \"facts\": [\"[Fact1]\", \"[Fact2]\"]
       }
     }
   },
+  \"conversations_by_date\": {
+    \"YYYY-MM-DD\": {
+      \"people\": [\"[PersonName]\"],
+      \"conversations\": [
+        {
+          \"time\": \"HH:MM:SS\",
+          \"dialogue\": [
+            {\"speaker\": \"[Speaker]\", \"text\": \"[Text]\"}
+          ],
+          \"summary\": \"[Summary]\"
+        }
+      ]
+    }
+  },
+  \"facts\": {
+    \"[FactID]\": {
+      \"statement\": \"[FactStatement]\",
+      \"related_entities\": [\"[EntityName]\"],
+      \"source\": \"[Source]\",
+      \"date_recorded\": \"YYYY-MM-DD HH:MM:SS\"
+    }
+  },
   \"metadata\": {
-    \"date\": \"2025-04-03\",
-    \"summary\": \"Discussion about Project Alpha progress at Acme Inc\"
+    \"date\": \"YYYY-MM-DD\",
+    \"summary\": \"[ConversationSummary]\"
   }
 }
 
-IMPORTANT: Output ONLY the JSON with no additional text, explanation, or formatting. Ensure all existing entity data is preserved and enriched, not overwritten."
-    
-    # Call Groq for extraction
-    local extraction=$(call_groq "$text" "$system_prompt")
-    
-    # Ensure we have valid JSON output
-    if echo "$extraction" | jq empty &>/dev/null; then
-        echo "$extraction"
-    else
-        # Try to fix common JSON parsing issues
-        local fixed_json=$(echo "$extraction" | sed 's/```json//g' | sed 's/```//g' | sed 's/^```$//g')
-        if echo "$fixed_json" | jq empty &>/dev/null; then
-            echo "$fixed_json"
-        else
-            echo "Warning: Received invalid JSON from extraction process" >&2
-            echo '{"entities":{},"metadata":{"date":"","summary":""}}'
-        fi
-    fi
+IMPORTANT: 
+1. Output ONLY JSON
+2. Include detailed timestamps in YYYY-MM-DD HH:MM:SS format
+3. Store conversations both in person entities AND grouped by date 
+4. For objects, always include a 'category' field with values like 'movie', 'series', 'book', 'clothing', 'food', etc.
+5. Structure all data within the appropriate entity
+6. Do not create subcategories
+7. Include extremely rich and comprehensive details for all entities
+8. Only include data that is explicitly mentioned in the text
+9. Do not assign any type of IDs to facts or other elements
+10. Store conversations in great detail with full context, topics, sentiment, and comprehensive summaries"
+
+    # Call Groq for extraction with json_object format
+    call_groq "$extract_prompt
+
+Text to extract from:
+$text"
 }
 
 # Update mindmap
@@ -159,6 +187,7 @@ update_mindmap() {
     local bot_response="$2"
     local extraction="$3"
     local current_date=$(date +"%Y-%m-%d")
+    local current_time=$(date +"%H:%M:%S")
     
     # Create backup of current mindmap
     cp "$MINDMAP_FILE" "${MINDMAP_FILE}.bak"
@@ -166,15 +195,13 @@ update_mindmap() {
     # Validate extraction JSON
     if ! echo "$extraction" | jq empty &>/dev/null; then
         echo "Warning: Received invalid JSON from extraction process" >&2
-        extraction='{"entities":{},"metadata":{"date":"'"$current_date"'","summary":""}}'
+        extraction='{
+            "entities": {},
+            "conversations_by_date": {},
+            "facts": {},
+            "metadata": {"date": "'"$current_date"'", "summary": ""}
+        }'
     fi
-    
-    # Extract metadata
-    local conversation_date=$(echo "$extraction" | jq -r '.metadata.date // "'"$current_date"'"')
-    local summary=$(echo "$extraction" | jq -r '.metadata.summary // ""')
-    
-    # Parse conversation timestamp
-    local timestamp=$(date +"%Y-%m-%d %H:%M:%S")
     
     # Create a temporary file for the jq script
     local temp_jq_script=$(mktemp)
@@ -183,103 +210,110 @@ update_mindmap() {
     cat > "$temp_jq_script" << 'EOF'
 # Function to merge arrays by combining unique elements
 def merge_arrays(a; b):
-  if (a | type) == "array" and (b | type) == "array" then
-    a + b | unique
-  else
-    b
-  end;
+    if (a | type) == "array" and (b | type) == "array" then
+        a + b | unique
+    else
+        b
+    end;
 
 # Function to recursively merge objects by combining values
 def deep_merge(a; b):
-  if (a | type) == "object" and (b | type) == "object" then
-    # Create a new object with keys from both inputs
-    a as $a | b as $b | reduce (($a | keys) + ($b | keys) | unique[]) as $k
-      ({}; 
-        # If key exists in both, merge the values
-        if ($a[$k] != null) and ($b[$k] != null) then
-          if ($a[$k] | type) == "object" and ($b[$k] | type) == "object" then
-            .[$k] = deep_merge($a[$k]; $b[$k])
-          elif ($a[$k] | type) == "array" and ($b[$k] | type) == "array" then
-            .[$k] = merge_arrays($a[$k]; $b[$k])
-          else
-            .[$k] = $b[$k]  # Prefer new value
-          end
-        # If key exists only in one, use that value
-        elif $a[$k] != null then
-          .[$k] = $a[$k]
-        else
-          .[$k] = $b[$k]
-        end
-      )
-  else
-    b  # If not both objects, prefer the new value
-  end;
+    if (a | type) == "object" and (b | type) == "object" then
+        # Create a new object with keys from both inputs
+        a as $a | b as $b | reduce (($a | keys) + ($b | keys) | unique[]) as $k (
+            {};
+            # If key exists in both, merge the values
+            if ($a[$k] != null) and ($b[$k] != null) then
+                if ($a[$k] | type) == "object" and ($b[$k] | type) == "object" then
+                    .[$k] = deep_merge($a[$k]; $b[$k])
+                elif ($a[$k] | type) == "array" and ($b[$k] | type) == "array" then
+                    .[$k] = merge_arrays($a[$k]; $b[$k])
+                else
+                    .[$k] = $b[$k]  # Prefer new value
+                end
+            # If key exists only in one, use that value
+            elif $a[$k] != null then
+                .[$k] = $a[$k]
+            else
+                .[$k] = $b[$k]
+            end
+        )
+    else
+        b  # If not both objects, prefer the new value
+    end;
 
 # Main update logic
-. as $original |
-$extraction.entities as $new_entities |
+. as $original | $extraction as $new_data |
 
 # Initialize entities categories if they don't exist
 . = (
-  if has("entities") then
-    .
-  else
-    . + {"entities": {
-      "person": {},
-      "place": {},
-      "organization": {},
-      "event": {},
-      "object": {},
-      "concept": {},
-      "conversation": {}
-    }}
-  end
+    if has("entities") then . 
+    else . + {
+        "entities": {
+            "person": {},
+            "place": {},
+            "organization": {},
+            "event": {},
+            "object": {}
+        }
+    } end
+) |
+
+# Initialize conversations_by_date if it doesn't exist
+. = (
+    if has("conversations_by_date") then .
+    else . + {"conversations_by_date": {}} end
+) |
+
+# Initialize facts if they don't exist
+. = (
+    if has("facts") then .
+    else . + {"facts": {}} end
+) |
+
+# Initialize logs if they don't exist
+. = (
+    if has("logs") then .
+    else . + {"logs": []} end
 ) |
 
 # Merge entities
-($new_entities | keys) as $entity_types |
-reduce $entity_types[] as $type
-  (.;
+($new_data.entities | keys) as $entity_types |
+reduce $entity_types[] as $type (.;
     if ($original.entities[$type] != null) then
-      .entities[$type] = deep_merge($original.entities[$type]; $new_entities[$type])
+        .entities[$type] = deep_merge($original.entities[$type]; $new_data.entities[$type])
     else
-      .entities[$type] = $new_entities[$type]
+        .entities[$type] = $new_data.entities[$type]
     end
-  ) |
+) |
 
-# Update conversations by date
-if .conversations[$date] then
-  .conversations[$date].exchanges += [{
+# Merge conversations by date
+if $new_data.conversations_by_date then
+    .conversations_by_date = deep_merge($original.conversations_by_date; $new_data.conversations_by_date)
+else .
+end |
+
+# Merge facts
+if $new_data.facts then
+    .facts = deep_merge($original.facts; $new_data.facts)
+else .
+end |
+
+# Add to logs
+.logs += [{
     "timestamp": $timestamp,
-    "user": $user,
-    "assistant": $assistant
-  }] |
-  if $summary != "" then
-    .conversations[$date].summary = $summary
-  else
-    .
-  end
-else
-  .conversations[$date] = {
-    "summary": $summary,
-    "exchanges": [{
-      "timestamp": $timestamp,
-      "user": $user,
-      "assistant": $assistant
-    }]
-  }
-end
+    "user_input": $user,
+    "assistant_response": $assistant
+}]
 EOF
 
     # Update mindmap using the temporary jq script
     jq --from-file "$temp_jq_script" \
-       --argjson extraction "$extraction" \
-       --arg timestamp "$timestamp" \
-       --arg date "$conversation_date" \
-       --arg summary "$summary" \
-       --arg user "$user_input" \
-       --arg assistant "$bot_response" \
-       "${MINDMAP_FILE}.bak" > "$MINDMAP_FILE"
+        --argjson extraction "$extraction" \
+        --arg timestamp "$current_date $current_time" \
+        --arg user "$user_input" \
+        --arg assistant "$bot_response" \
+        "${MINDMAP_FILE}.bak" > "$MINDMAP_FILE"
     
     # Remove the temporary script
     rm "$temp_jq_script"
@@ -327,30 +361,20 @@ main() {
             continue
         fi
         
-        # Get current mindmap state for context
-        current_mindmap=$(cat "$MINDMAP_FILE")
-        
-        # Create system message with current mindmap context
-        system_message="You are an AI assistant that stores information in a structured mindmap. Today's date is $DATE.
+        # Create user prompt with instruction to return JSON
+        user_prompt="Process this input and respond with a structured JSON reply. Today's date is $DATE. The response must be valid JSON with very detailed entities, attributes, and appropriate categorization. Include category field for objects using values like 'movie', 'series', 'book', 'clothing', etc. Store conversations directly within person entities with rich details including topics, sentiment, and comprehensive summaries.
 
-Your responses should be clear and informative. Respond as if you are having a conversation with the user.
-
-Current mindmap state:
-$current_mindmap"
+Input: $user_input"
         
         # Get response from Groq
         echo "Processing..."
-        bot_response=$(call_groq "$user_input" "$system_message")
+        bot_response=$(call_groq "$user_prompt")
         
         # Check if we got a valid response
         if [ -z "$bot_response" ] || [ "$bot_response" = "Error: Failed to get response after 3 attempts" ]; then
             echo "Error: Failed to process request"
             continue
         fi
-        
-        # Display the response
-        echo "Response:"
-        echo "$bot_response"
         
         # Extract entities and details
         echo "Updating mindmap..."
