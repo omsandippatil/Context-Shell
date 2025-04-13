@@ -1,0 +1,4223 @@
+{
+  "entities": {
+    "people": {
+      "Durva": {
+        "attributes": {
+          "name": "Durva",
+          "traits": [
+            "adventurous",
+            "excitable",
+            "frustrated",
+            "calm",
+            "proud",
+            "buzzing with excitement",
+            "loses patience",
+            "has plans",
+            "has a tendency to forget things",
+            "smiles",
+            "feels comforted",
+            "has a sense of humor",
+            "cares for friends",
+            "patient",
+            "helpful",
+            "empathetic",
+            "good friend",
+            "good listener",
+            "encouraging",
+            "uncertain about the future",
+            "focused on studying",
+            "fun-loving",
+            "lighthearted"
+          ],
+          "quotes": [
+            "I can’t wait for our next adventure."
+          ],
+          "attendee_of_cousins_birthday_party": true,
+          "family_member": true,
+          "feeling_restless": true,
+          "friends_names": [
+            "Om",
+            "Gargie"
+          ],
+          "has_friends": true,
+          "missing_friends": true,
+          "actions": [
+            "spent the day at a water park",
+            "tried every water slide",
+            "had a water fight in the lazy river",
+            "talked to Asha",
+            "went down the big slide with Asha",
+            "felt guilty about not spending time with Om",
+            "planned to catch up with Om"
+          ],
+          "feelings": [
+            "had a blast",
+            "felt amazing",
+            "had fun",
+            "felt rewarding",
+            "felt guilty",
+            "missed Om",
+            "productive",
+            "slightly stressed"
+          ],
+          "personality": "encouraging",
+          "role": "narrator",
+          "personality traits": [
+            "particular",
+            "perfectionist"
+          ],
+          "has_career_goals": true,
+          "has_direction_goals": true,
+          "has_education_goals": true,
+          "has_had_conversations_with_mom": true,
+          "has_supportive_mom": true,
+          "has_thoughts_about_future": true,
+          "has_uncertainty_about_path": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like an adventure right from the start",
+            "context": [
+              "Om",
+              "CSMT Railway Museum",
+              "Mumbai"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "secret—just the two of us, no one else knowing",
+            "context": [
+              "Om"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like a small rebellion, even though it wasn’t really one",
+            "context": [
+              "Om"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "Local trains in Mumbai are always packed",
+            "context": [
+              "Mumbai"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the hustle, the noise, the energy—it’s all so unique",
+            "context": [
+              "Mumbai"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "Om was beside me, keeping things light with his usual jokes",
+            "context": [
+              "Om"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like a kid in a candy shop",
+            "context": [
+              "CSMT Railway Museum"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the vintage locomotives were incredible",
+            "context": [
+              "CSMT Railway Museum"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "there was something calming about being in the presence of these giants",
+            "context": [
+              "CSMT Railway Museum"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "realized I’d made a mistake in booking",
+            "context": [
+              "ticket counter"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "my mother used to say: 'Patience and confidence, Durva. You have everything you need to fix things.'",
+            "context": [
+              "mother"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "I felt so proud of myself",
+            "context": [
+              "ticket counter"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "it was about handling the stress without backing down",
+            "context": [
+              "ticket counter"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "we spent a good amount of time walking around the museum",
+            "context": [
+              "CSMT Railway Museum"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "we both agreed that we needed to do this more often",
+            "context": [
+              "Om"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "today was a reminder of how much I love discovering new things",
+            "context": [
+              "CSMT Railway Museum"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Today was... one of those days.",
+            "context": [
+              "trip to the museum",
+              "Om",
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I got home from the trip to the museum with Om, still buzzing with excitement, but things quickly took a turn when I had to deal with Gargie.",
+            "context": [
+              "trip to the museum",
+              "Om",
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "It all started with the bathroom.",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I had just woken up and was in desperate need of getting ready for the day when I found the bathroom door locked.",
+            "context": [
+              "bathroom",
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Of course, I knew what that meant—Gargie had probably taken over the space again.",
+            "context": [
+              "Gargie",
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "When I finally got in, it was a disaster.",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Her pharmacy books were scattered all over the counter, her notes were piled high, and the place felt more like a study room than a bathroom.",
+            "context": [
+              "Gargie",
+              "bathroom",
+              "pharmacy books",
+              "notes"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I don’t get why she can’t just keep her stuff in her room like everyone else!",
+            "context": [
+              "Gargie",
+              "room"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Naturally, I lost my patience.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "“Gargie!” I yelled. “You can’t keep leaving your books here! I need to get ready!”",
+            "context": [
+              "Gargie",
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "She barely looked up from her phone, rolling her eyes.",
+            "context": [
+              "Gargie",
+              "phone"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "“Relax, Durva. It’s not like you need to be in here for hours. Give me five minutes.”",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Five minutes? It was already past noon, and I had my own plans!",
+            "context": [
+              "noon",
+              "plans"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "After a bit more shouting and a back-and-forth about whose turn it was to use the bathroom (since we both have a tendency to forget things like that), we finally reached a compromise.",
+            "context": [
+              "Gargie",
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I agreed to give her another 10 minutes if she promised to clean up the bathroom afterward, and she agreed to not turn it into a pharmacy study zone next time.",
+            "context": [
+              "Gargie",
+              "bathroom",
+              "pharmacy study zone"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Afterward, she teased me a bit, saying, “You know, we should plan a trip together soon, just you and me. You know, something fun.”",
+            "context": [
+              "Gargie",
+              "trip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I gave her an exaggerated eye-roll, but I couldn’t help smiling.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "As annoying as she can be, there’s something about spending time with her that feels... comforting.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Maybe we could go on a trip, just the two of us.",
+            "context": [
+              "Gargie",
+              "trip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I don't know where, but I have a feeling it wouldn’t be as crazy as some of my adventures with Om, but it might be fun in its own way.",
+            "context": [
+              "Om",
+              "trip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Anyway, at least the bathroom’s clean now.",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Gargie and I still have our moments, but in the end, we always figure things out.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "It’s just another day in the life at home, I guess.",
+            "context": [
+              "home"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Today was a whirlwind of family, food, and a little bit of chaos.",
+            "context": [
+              "family_gathering",
+              "birthday_party"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I spent the day at my cousins’ house in Nerul for a birthday party.",
+            "context": [
+              "cousins_house",
+              "Nerul",
+              "birthday_party"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The house was buzzing with excitement—music, chatter, and kids running around everywhere.",
+            "context": [
+              "cousins_house",
+              "birthday_party",
+              "family_gathering"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "It was one of those classic family gatherings where everyone is either stuffing their faces with food or talking over each other about the latest family gossip.",
+            "context": [
+              "family_gathering",
+              "food",
+              "gossip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The birthday cake was huge, and I definitely had my fair share of it—chocolate layers with cream on top.",
+            "context": [
+              "birthday_cake",
+              "chocolate_layers",
+              "cream_on_top"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "As usual, it was impossible to resist.",
+            "context": [
+              "birthday_cake"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "But the highlight of the day had to be when my younger cousin, Aditi, accidentally spilled juice all over the carpet.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "carpet"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "She was carrying a cup in one hand while trying to juggle some snacks in the other, and of course, the inevitable happened.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "snacks"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The juice splashed everywhere, and Aditi just froze, looking horrified.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "horrified"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I couldn’t help but laugh—she looked so embarrassed, but honestly, it was kind of cute.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "laugh"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I quickly grabbed some tissues and helped her clean it up before anyone noticed.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "tissues"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "We both ended up giggling as we tried to dab the carpet without making it worse.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "giggling"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Aditi was so relieved when no one seemed to mind.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "relieved"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I kept teasing her, telling her she was making a new “art installation” on the carpet.",
+            "context": [
+              "Aditi",
+              "juice_spill",
+              "art_installation"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "As the evening wore on, I started feeling a bit restless.",
+            "context": [
+              "evening",
+              "restless"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The party was fun, but I found myself missing my friends.",
+            "context": [
+              "party",
+              "friends"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I’ve spent so much time with family lately that I didn’t realize how much I miss the random, laid-back hangouts with Om and Gargie—how we could just go to a random spot, talk about anything and everything, and lose track of time.",
+            "context": [
+              "family",
+              "friends",
+              "hangouts"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I guess I’m just so used to my friends now.",
+            "context": [
+              "friends"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I started wondering what the rest of the weekend would hold.",
+            "context": [
+              "weekend"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Maybe I could make plans with Om or see if Gargie’s up for a quick outing tomorrow.",
+            "context": [
+              "Om",
+              "Gargie",
+              "plans"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Anyway, I guess that’s the thing about family events—they’re great, but they always leave me with this little sense of wanting something more, something different.",
+            "context": [
+              "family_events"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "But for now, I’ll just enjoy the rest of the night here and try to not eat too much more cake.",
+            "context": [
+              "night",
+              "cake"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Today was one of those perfectly simple, yet hilarious days.",
+            "context": [
+              "Mansa",
+              "Panvel",
+              "street food stalls"
+            ]
+          },
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Today was one of those carefree, laughter-filled moments I needed.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          },
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Today was a mix of studying and patience, but also a reminder that it’s okay to struggle sometimes.",
+            "context": [
+              "Om",
+              "Aviraj",
+              "library",
+              "KTs"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "Today was a blast! I spent the day at a water park with Vedant and his gang of friends.",
+            "context": [
+              "Vedant",
+              "water park",
+              "friends"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "It was such a good break from everything—sun, water, slides, and endless laughter.",
+            "context": [
+              "break",
+              "sun",
+              "water",
+              "slides",
+              "laughter"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We all tried every water slide we could find, some faster and scarier than others.",
+            "context": [
+              "water slides",
+              "faster",
+              "scarier"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "It felt amazing to just let loose and have fun, forgetting about exams and stress for a while.",
+            "context": [
+              "exams",
+              "stress",
+              "fun"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "There was one slide, the big one, that everyone was excited to try.",
+            "context": [
+              "big slide",
+              "excited"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "But Vedant’s girlfriend, Asha, was really nervous about it.",
+            "context": [
+              "Asha",
+              "nervous",
+              "Vedant"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could tell she was freaking out a little bit.",
+            "context": [
+              "Asha",
+              "freaking out"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "She kept looking up at the slide, shaking her head.",
+            "context": [
+              "Asha",
+              "slide",
+              "shaking her head"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“I can’t do it, Durva,” she said, her voice filled with hesitation.",
+            "context": [
+              "Asha",
+              "Durva",
+              "hesitation"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“It looks too steep!”",
+            "context": [
+              "Asha",
+              "steep"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could see how much she wanted to go, but the fear was holding her back.",
+            "context": [
+              "Asha",
+              "fear",
+              "holding her back"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "So, I sat with her for a minute, talking her through it.",
+            "context": [
+              "Durva",
+              "Asha",
+              "talking her through it"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“Asha, I get it, it’s a huge drop. But think of how fun it’s going to be! You’re with all of us, and I promise, it’s not as scary as it looks. We’ll go together, okay? You’ll feel so proud when you’ve done it.”",
+            "context": [
+              "Durva",
+              "Asha",
+              "huge drop",
+              "fun",
+              "proud"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "She hesitated for a moment but agreed to give it a try.",
+            "context": [
+              "Asha",
+              "hesitated",
+              "agreed"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We waited in line together, talking about random things to distract her from the nerves.",
+            "context": [
+              "Durva",
+              "Asha",
+              "random things",
+              "nerves"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "When it was finally our turn, we climbed up to the top.",
+            "context": [
+              "Durva",
+              "Asha",
+              "top"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could feel her grip on the rail tighten, but she took a deep breath, and we slid down together.",
+            "context": [
+              "Durva",
+              "Asha",
+              "grip",
+              "deep breath",
+              "slid down"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could hear her laughing the whole way down, and by the time we hit the water, she was smiling from ear to ear.",
+            "context": [
+              "Durva",
+              "Asha",
+              "laughing",
+              "smiling"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“I can’t believe I did it!” she said, laughing and splashing around.",
+            "context": [
+              "Asha",
+              "laughing",
+              "splashing"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "It was so rewarding to see her face light up like that.",
+            "context": [
+              "Durva",
+              "Asha",
+              "rewarding",
+              "face light up"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "Everyone was cheering, and it felt like such a win.",
+            "context": [
+              "everyone",
+              "cheering",
+              "win"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "It was one of those moments where you realize how powerful a little encouragement can be.",
+            "context": [
+              "encouragement",
+              "powerful"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "The rest of the day was filled with more laughs, more slides, and a whole lot of fun.",
+            "context": [
+              "laughs",
+              "slides",
+              "fun"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We even ended up having a water fight in the lazy river, and I haven’t laughed that much in a long time.",
+            "context": [
+              "water fight",
+              "lazy river",
+              "laughed"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "It was the perfect way to spend the day.",
+            "context": [
+              "perfect",
+              "day"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "Though, I couldn’t help but feel a little guilty by the end of the day.",
+            "context": [
+              "Durva",
+              "guilty"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I realized I hadn’t spent any time with Om.",
+            "context": [
+              "Durva",
+              "Om",
+              "time"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We’ve both been so caught up with our stuff lately, and I know he’s been studying hard too.",
+            "context": [
+              "Durva",
+              "Om",
+              "stuff",
+              "studying"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I’m definitely planning to catch up with him soon, maybe just a chill hangout or even a study session.",
+            "context": [
+              "Durva",
+              "Om",
+              "catch up",
+              "hangout",
+              "study session"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I miss those moments with him.",
+            "context": [
+              "Durva",
+              "Om",
+              "miss"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "But for today, I’m just going to hold on to the memories of laughter and the joy of seeing Asha face her fear.",
+            "context": [
+              "Durva",
+              "memories",
+              "laughter",
+              "Asha",
+              "fear"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "It was a good day.",
+            "context": [
+              "good day"
+            ]
+          },
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "Today was a quiet but meaningful day spent with Snehal and Mansa at our favorite café.",
+            "context": [
+              "Snehal",
+              "Mansa",
+              "favorite café"
+            ]
+          },
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "had a meeting with Mansi Subhedar about an upcoming project",
+            "context": [
+              "Mansi Subhedar",
+              "upcoming project"
+            ]
+          },
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "asked Mansi for advice on balancing work, study, and personal life",
+            "context": [
+              "Mansi Subhedar",
+              "future",
+              "balance",
+              "priorities",
+              "risks",
+              "internships",
+              "hands-on experience"
+            ]
+          },
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "felt more confident after the meeting",
+            "context": [
+              "Mansi Subhedar",
+              "advice"
+            ]
+          },
+          {
+            "timestamp": "2025-05-04",
+            "content": "Today was a productive but slightly stressful day at college.",
+            "context": [
+              "college"
+            ]
+          },
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "Today was a fun, lighthearted break from the usual stress.",
+            "context": [
+              "Praptee",
+              "canteen",
+              "campus couples"
+            ]
+          },
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "Today was a sweet day—literally.",
+            "context": [
+              "Riya",
+              "rasgullas"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "helped Gargie with her math homework",
+            "context": [
+              "Gargie",
+              "math homework"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "had a heart-to-heart with my mom",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "talked about life and everything on my mind",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "shared thoughts with mom about future",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "mom reminded me to follow what feels right",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "mom said 'Never forget your worth, Durva'",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "mom said 'You have every right to pursue your dreams'",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "mom said 'no one can take that from you'",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "felt a sense of strength and clarity",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "applied for an internship",
+            "context": [
+              "future",
+              "practical experience"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "texted Om about internship application",
+            "context": [
+              "Om",
+              "friends"
+            ]
+          }
+        ]
+      },
+      "Om": {
+        "attributes": {
+          "name": "Om",
+          "traits": [
+            "joking",
+            "fascinated",
+            "goes on trips",
+            "has adventures",
+            "helpful",
+            "humorous",
+            "Durva's friend",
+            "studying hard",
+            "friend"
+          ],
+          "friend": true,
+          "is_friend": true,
+          "is_supportive": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "Om was beside me, keeping things light with his usual jokes",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "Om seemed just as fascinated as I was",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I got home from the trip to the museum with Om, still buzzing with excitement, but things quickly took a turn when I had to deal with Gargie.",
+            "context": [
+              "trip to the museum",
+              "Durva",
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I don't know where, but I have a feeling it wouldn’t be as crazy as some of my adventures with Om, but it might be fun in its own way.",
+            "context": [
+              "Durva",
+              "trip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I’ve spent so much time with family lately that I didn’t realize how much I miss the random, laid-back hangouts with Om and Gargie—how we could just go to a random spot, talk about anything and everything, and lose track of time.",
+            "context": [
+              "hangouts"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Maybe I could make plans with Om or see if Gargie’s up for a quick outing tomorrow.",
+            "context": [
+              "plans"
+            ]
+          },
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "I started wondering if Om and I could maybe study together sometime soon.",
+            "context": [
+              "Durva",
+              "exams"
+            ]
+          },
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Om kept adding in his own explanations",
+            "context": [
+              "Durva",
+              "Aviraj",
+              "library",
+              "KTs"
+            ]
+          },
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "“Come on, Aviraj, are you sure you didn’t sleep through the entire semester?”",
+            "context": [
+              "Durva",
+              "Aviraj",
+              "library",
+              "KTs"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I realized I hadn’t spent any time with Om.",
+            "context": [
+              "Durva",
+              "time"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We’ve both been so caught up with our stuff lately, and I know he’s been studying hard too.",
+            "context": [
+              "Durva",
+              "stuff",
+              "studying"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I’m definitely planning to catch up with him soon, maybe just a chill hangout or even a study session.",
+            "context": [
+              "Durva",
+              "catch up",
+              "hangout",
+              "study session"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I miss those moments with him.",
+            "context": [
+              "Durva",
+              "miss"
+            ]
+          },
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "I haven't hung out with Om in a while.",
+            "context": [
+              "Durva",
+              "assignments",
+              "deadlines"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "received text from Durva about internship application",
+            "context": [
+              "Durva",
+              "friends"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "responded with encouragement to Durva",
+            "context": [
+              "Durva",
+              "friends"
+            ]
+          }
+        ]
+      },
+      "mother": {
+        "attributes": {
+          "name": "",
+          "traits": [
+            "wise"
+          ],
+          "quotes": [
+            "Patience and confidence, Durva. You have everything you need to fix things."
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "my mother used to say: 'Patience and confidence, Durva. You have everything you need to fix things.'",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "Gargie": {
+        "attributes": {
+          "name": "Gargie",
+          "traits": [
+            "takes over bathroom",
+            "leaves books and notes",
+            "has a tendency to forget things",
+            "teases",
+            "has a pharmacy study zone",
+            "struggling with equations",
+            "getting frustrated",
+            "smiling",
+            "confident",
+            "relieved",
+            "grateful"
+          ],
+          "friend": true,
+          "expression": "save me"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I got home from the trip to the museum with Om, still buzzing with excitement, but things quickly took a turn when I had to deal with Gargie.",
+            "context": [
+              "trip to the museum",
+              "Om",
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "It all started with the bathroom.",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Of course, I knew what that meant—Gargie had probably taken over the space again.",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Her pharmacy books were scattered all over the counter, her notes were piled high, and the place felt more like a study room than a bathroom.",
+            "context": [
+              "bathroom",
+              "pharmacy books",
+              "notes"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "“Gargie!” I yelled. “You can’t keep leaving your books here! I need to get ready!”",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "She barely looked up from her phone, rolling her eyes.",
+            "context": [
+              "phone"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "“Relax, Durva. It’s not like you need to be in here for hours. Give me five minutes.”",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "After a bit more shouting and a back-and-forth about whose turn it was to use the bathroom (since we both have a tendency to forget things like that), we finally reached a compromise.",
+            "context": [
+              "bathroom"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Afterward, she teased me a bit, saying, “You know, we should plan a trip together soon, just you and me. You know, something fun.”",
+            "context": [
+              "trip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "As annoying as she can be, there’s something about spending time with her that feels... comforting.",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Maybe we could go on a trip, just the two of us.",
+            "context": [
+              "trip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Gargie and I still have our moments, but in the end, we always figure things out.",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I’ve spent so much time with family lately that I didn’t realize how much I miss the random, laid-back hangouts with Om and Gargie—how we could just go to a random spot, talk about anything and everything, and lose track of time.",
+            "context": [
+              "hangouts"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Maybe I could make plans with Om or see if Gargie’s up for a quick outing tomorrow.",
+            "context": [
+              "plans"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "had trouble with math equations",
+            "context": [
+              "math homework",
+              "equations"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "said 'I don't get it'",
+            "context": [
+              "math homework",
+              "equations"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "smiled when Durva added humor",
+            "context": [
+              "math homework",
+              "equations",
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "started to understand math equations",
+            "context": [
+              "math homework",
+              "equations",
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "said 'Okay, I think I actually get it now'",
+            "context": [
+              "math homework",
+              "equations",
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "thanked Durva for help",
+            "context": [
+              "math homework",
+              "equations",
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "Aditi": {
+        "attributes": {
+          "name": "Aditi",
+          "younger_cousin": true,
+          "accidentally_spilled_juice": true,
+          "embarrassed": true,
+          "relieved": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "But the highlight of the day had to be when my younger cousin, Aditi, accidentally spilled juice all over the carpet.",
+            "context": [
+              "juice_spill",
+              "carpet"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "She was carrying a cup in one hand while trying to juggle some snacks in the other, and of course, the inevitable happened.",
+            "context": [
+              "juice_spill",
+              "snacks"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The juice splashed everywhere, and Aditi just froze, looking horrified.",
+            "context": [
+              "juice_spill",
+              "horrified"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I couldn’t help but laugh—she looked so embarrassed, but honestly, it was kind of cute.",
+            "context": [
+              "laugh"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I quickly grabbed some tissues and helped her clean it up before anyone noticed.",
+            "context": [
+              "tissues"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "We both ended up giggling as we tried to dab the carpet without making it worse.",
+            "context": [
+              "giggling"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "Aditi was so relieved when no one seemed to mind.",
+            "context": [
+              "relieved"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I kept teasing her, telling her she was making a new “art installation” on the carpet.",
+            "context": [
+              "art_installation"
+            ]
+          }
+        ]
+      },
+      "Mansa": {
+        "attributes": {
+          "name": "Mansa",
+          "traits": [
+            "determined",
+            "can handle spicy food (or so she thought)",
+            "has a sense of humor",
+            "can be revengeful"
+          ],
+          "plan": "traveling, starting new projects, and just chasing her dreams",
+          "trait": "optimistic"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "insisted on ordering something ridiculously spicy",
+            "context": [
+              "Durva",
+              "street food stalls in Panvel"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Her face turned red, her eyes started watering, and before I knew it, she was practically fanning herself with her hands.",
+            "context": [
+              "Durva",
+              "spicy food"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "She started sniffling and her lips were practically trembling.",
+            "context": [
+              "Durva",
+              "spicy food"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "She started crying!",
+            "context": [
+              "Durva",
+              "spicy food"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Yeah, yeah, lesson learned. But you know what? I’m definitely going to get you back for this.",
+            "context": [
+              "Durva",
+              "revenge"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Let’s do it! A nice, chill movie, no spice involved. Just a relaxing day.",
+            "context": [
+              "Durva",
+              "movie plan"
+            ]
+          },
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "I promised her I’d catch up with her soon",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "Mansa, as usual, shifted the mood with her plans for the future.",
+            "context": [
+              "future plans"
+            ]
+          }
+        ]
+      },
+      "Sangram": {
+        "attributes": {
+          "name": "Sangram",
+          "hair": "disheveled",
+          "reaction to teasing": "amused"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Sangram was looking especially disheveled today, with his hair all over the place, like he’d just rolled out of bed.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Vedanti"
+            ]
+          },
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Sangram ran his hands through his hair, trying to smooth it down, but it was no use.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Vedanti"
+            ]
+          },
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "He gave Vedanti a mock glare, but you could tell he was secretly amused.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "Vedant": {
+        "attributes": {
+          "name": "Vedant",
+          "personality": "serious type",
+          "traits": [
+            "has a gang of friends",
+            "has a girlfriend named Asha"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Vedant, who’s always been a bit of a serious type, started talking about his upcoming exams and how much he needed to study.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Sangram",
+              "Vedanti"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I spent the day at a water park with Vedant and his gang of friends.",
+            "context": [
+              "water park",
+              "friends"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "But Vedant’s girlfriend, Asha, was really nervous about it.",
+            "context": [
+              "Asha",
+              "nervous"
+            ]
+          }
+        ]
+      },
+      "Vedanti": {
+        "attributes": {
+          "name": "Vedanti",
+          "personality": "teasing"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Vedanti, never one to let a chance for teasing go by, leaned over and said, “Sangram, did you forget to comb your hair this morning, or is this a new ‘wild’ look you’re going for?”",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Sangram"
+            ]
+          }
+        ]
+      },
+      "Aviraj": {
+        "attributes": {
+          "name": "Aviraj",
+          "traits": [
+            "stressed",
+            "defeated",
+            "embarrassed"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Aviraj seemed a little defeated at first, fumbling through his pages and muttering to himself.",
+            "context": [
+              "Durva",
+              "Om",
+              "library",
+              "KTs"
+            ]
+          },
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Aviraj tried to smile, but I could tell he was embarrassed.",
+            "context": [
+              "Durva",
+              "Om",
+              "library",
+              "KTs"
+            ]
+          }
+        ]
+      },
+      "Asha": {
+        "attributes": {
+          "name": "Asha",
+          "traits": [
+            "Vedant's girlfriend",
+            "nervous",
+            "fearful",
+            "encouraged by Durva",
+            "faced her fear"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "But Vedant’s girlfriend, Asha, was really nervous about it.",
+            "context": [
+              "Vedant",
+              "nervous"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could tell she was freaking out a little bit.",
+            "context": [
+              "freaking out"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "She kept looking up at the slide, shaking her head.",
+            "context": [
+              "slide",
+              "shaking her head"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“I can’t do it, Durva,” she said, her voice filled with hesitation.",
+            "context": [
+              "Durva",
+              "hesitation"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“It looks too steep!”",
+            "context": [
+              "steep"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could see how much she wanted to go, but the fear was holding her back.",
+            "context": [
+              "fear",
+              "holding her back"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "So, I sat with her for a minute, talking her through it.",
+            "context": [
+              "Durva",
+              "talking her through it"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "She hesitated for a moment but agreed to give it a try.",
+            "context": [
+              "hesitated",
+              "agreed"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We waited in line together, talking about random things to distract her from the nerves.",
+            "context": [
+              "Durva",
+              "random things",
+              "nerves"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "When it was finally our turn, we climbed up to the top.",
+            "context": [
+              "Durva",
+              "top"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could feel her grip on the rail tighten, but she took a deep breath, and we slid down together.",
+            "context": [
+              "Durva",
+              "grip",
+              "deep breath",
+              "slid down"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could hear her laughing the whole way down, and by the time we hit the water, she was smiling from ear to ear.",
+            "context": [
+              "laughing",
+              "smiling"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“I can’t believe I did it!” she said, laughing and splashing around.",
+            "context": [
+              "laughing",
+              "splashing"
+            ]
+          }
+        ]
+      },
+      "Snehal": {
+        "attributes": {
+          "status": "going through a tough time",
+          "emotion": "not her usual bubbly self",
+          "experience": "breakup"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "Snehal’s been going through a tough time with her breakup, and I could see it in her eyes.",
+            "context": [
+              "breakup"
+            ]
+          },
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "She started talking about what happened, and I could tell how heavy everything was on her.",
+            "context": [
+              "breakup"
+            ]
+          },
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "Durva",
+              "advice"
+            ]
+          },
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "India",
+              "visit"
+            ]
+          }
+        ]
+      },
+      "Mansi Subhedar": {
+        "attributes": {
+          "title": "ECS HOD",
+          "traits": [
+            "organized",
+            "ability to make things feel clearer"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "had a meeting with Mansi Subhedar about an upcoming project",
+            "context": [
+              "Durva",
+              "upcoming project"
+            ]
+          },
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "Mansi gave advice on balancing work, study, and personal life",
+            "context": [
+              "Durva",
+              "future",
+              "balance",
+              "priorities",
+              "risks",
+              "internships",
+              "hands-on experience"
+            ]
+          }
+        ]
+      },
+      "Shravni": {
+        "attributes": {
+          "feelings": [
+            "overwhelmed",
+            "stressed",
+            "relaxed",
+            "better"
+          ],
+          "traits": [
+            "has a lot on her plate"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-04",
+            "content": "Shravni’s face went from focused to overwhelmed.",
+            "context": [
+              "library",
+              "project brief",
+              "deadline"
+            ]
+          },
+          {
+            "timestamp": "2025-05-04",
+            "content": "Shravni seemed to relax a little bit.",
+            "context": [
+              "assignment plan"
+            ]
+          },
+          {
+            "timestamp": "2025-05-04",
+            "content": "Shravni mentioned a group trip coming up soon.",
+            "context": [
+              "group trip"
+            ]
+          }
+        ]
+      },
+      "Praptee": {
+        "attributes": {
+          "name": "Praptee",
+          "traits": [
+            "exaggeration skills",
+            "fun-loving",
+            "lighthearted"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "Praptee was going on about how one of them probably 'sneezed too loudly' and that's why they're not speaking to each other anymore.",
+            "context": [
+              "Durva",
+              "canteen",
+              "campus couples"
+            ]
+          },
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "Praptee mimicked their way of holding hands, and it was so exaggerated I almost spit out my juice.",
+            "context": [
+              "Durva",
+              "canteen",
+              "campus couples"
+            ]
+          }
+        ]
+      },
+      "Riya": {
+        "attributes": {
+          "personality traits": [
+            "proud",
+            "teasing"
+          ],
+          "cooking skills": [
+            "making rasgullas"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "These are perfect.",
+            "context": [
+              "rasgullas",
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "You're impossible! It's a rasgulla, not a science experiment!",
+            "context": [
+              "Durva",
+              "rasgullas"
+            ]
+          },
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "We should host a potluck soon. Get everyone to bring their specialties. I bet it’ll be so much fun!",
+            "context": [
+              "Durva",
+              "potluck"
+            ]
+          }
+        ]
+      },
+      "mom": {
+        "attributes": {
+          "is_supportive": true,
+          "is_advocate_for_equality": true,
+          "has_always_had_Durva's_back": true,
+          "has_fought_for_what_she_believes_in": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "had a heart-to-heart with Durva",
+            "context": [
+              "Durva",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "listened carefully to Durva",
+            "context": [
+              "Durva",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "reminded Durva to follow what feels right",
+            "context": [
+              "Durva",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "said 'Never forget your worth, Durva'",
+            "context": [
+              "Durva",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "said 'You have every right to pursue your dreams'",
+            "context": [
+              "Durva",
+              "living room",
+              "dinner"
+            ]
+          },
+          {
+            "timestamp": "2025-05-08",
+            "content": "said 'no one can take that from you'",
+            "context": [
+              "Durva",
+              "living room",
+              "dinner"
+            ]
+          }
+        ]
+      }
+    },
+    "places": {
+      "CSMT Railway Museum": {
+        "attributes": {
+          "name": "CSMT Railway Museum",
+          "traits": [
+            "vintage",
+            "incredible"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like a kid in a candy shop",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the vintage locomotives were incredible",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "there was something calming about being in the presence of these giants",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "we spent a good amount of time walking around the museum",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "Mumbai": {
+        "attributes": {
+          "name": "Mumbai",
+          "traits": [
+            "crowded",
+            "energetic"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "Local trains in Mumbai are always packed",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the hustle, the noise, the energy—it’s all so unique",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "bathroom": {
+        "attributes": {
+          "name": "bathroom"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "It all started with the bathroom.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "When I finally got in, it was a disaster.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Her pharmacy books were scattered all over the counter, her notes were piled high, and the place felt more like a study room than a bathroom.",
+            "context": [
+              "Gargie",
+              "pharmacy books",
+              "notes"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Anyway, at least the bathroom’s clean now.",
+            "context": [
+              "Gargie"
+            ]
+          }
+        ]
+      },
+      "home": {
+        "attributes": {
+          "name": "home"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "It’s just another day in the life at home, I guess.",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "museum": {
+        "attributes": {
+          "name": "museum"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I got home from the trip to the museum with Om, still buzzing with excitement, but things quickly took a turn when I had to deal with Gargie.",
+            "context": [
+              "Durva",
+              "Om",
+              "Gargie"
+            ]
+          }
+        ]
+      },
+      "Nerul": {
+        "attributes": {
+          "name": "Nerul",
+          "location": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I spent the day at my cousins’ house in Nerul for a birthday party.",
+            "context": [
+              "cousins_house",
+              "birthday_party"
+            ]
+          }
+        ]
+      },
+      "cousins_house": {
+        "attributes": {
+          "name": "cousins_house",
+          "location": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I spent the day at my cousins’ house in Nerul for a birthday party.",
+            "context": [
+              "Nerul",
+              "birthday_party"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The house was buzzing with excitement—music, chatter, and kids running around everywhere.",
+            "context": [
+              "birthday_party",
+              "family_gathering"
+            ]
+          }
+        ]
+      },
+      "Panvel": {
+        "attributes": {
+          "type": "location",
+          "description": "has street food stalls"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "met up with Mansa at one of the street food stalls in Panvel",
+            "context": [
+              "Durva",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "Rasayani College": {
+        "attributes": {
+          "name": "Rasayani College"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "During lunch at Rasayani College, I sat with Vedant, Sangram, and Vedanti.",
+            "context": [
+              "Durva",
+              "lunch",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "library": {
+        "attributes": {
+          "name": "library",
+          "description": "quiet corner table, surrounded by stacks of books and notes",
+          "purpose": "working on assignment"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Om and I met up with Aviraj at the library to help him prepare for his upcoming KTs.",
+            "context": [
+              "Durva",
+              "Om",
+              "Aviraj",
+              "KTs"
+            ]
+          },
+          {
+            "timestamp": "2025-05-04",
+            "content": "We met up in the library to get started.",
+            "context": [
+              "Durva",
+              "Shravni",
+              "assignment"
+            ]
+          }
+        ]
+      },
+      "water park": {
+        "attributes": {
+          "type": "amusement park",
+          "features": [
+            "water slides",
+            "lazy river"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I spent the day at a water park with Vedant and his gang of friends.",
+            "context": [
+              "Vedant",
+              "friends"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We all tried every water slide we could find, some faster and scarier than others.",
+            "context": [
+              "water slides",
+              "faster",
+              "scarier"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We even ended up having a water fight in the lazy river, and I haven’t laughed that much in a long time.",
+            "context": [
+              "lazy river",
+              "water fight",
+              "laughed"
+            ]
+          }
+        ]
+      },
+      "India": {
+        "attributes": {
+          "type": "country"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "Snehal",
+              "visit"
+            ]
+          }
+        ]
+      },
+      "favorite café": {
+        "attributes": {
+          "type": "café"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "Today was a quiet but meaningful day spent with Snehal and Mansa at our favorite café.",
+            "context": [
+              "Durva",
+              "Snehal",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "Mansi Subhedar's office": {
+        "attributes": {
+          "location": "unknown"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "had a meeting with Mansi Subhedar about an upcoming project",
+            "context": [
+              "Durva",
+              "Mansi Subhedar",
+              "upcoming project"
+            ]
+          }
+        ]
+      },
+      "college": {
+        "attributes": {
+          "environment": "stressful",
+          "name": "college"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-04",
+            "content": "Today was a productive but slightly stressful day at college.",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "mentioned as a potential trip location",
+            "context": [
+              "Durva",
+              "Gargie"
+            ]
+          }
+        ]
+      },
+      "canteen": {
+        "attributes": {
+          "name": "canteen",
+          "description": "place where Durva and Praptee spent the afternoon"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "I spent the afternoon with Praptee at the canteen",
+            "context": [
+              "Durva",
+              "Praptee",
+              "campus couples"
+            ]
+          }
+        ]
+      },
+      "Durva's house": {
+        "attributes": {
+          "location": "not specified"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "Riya brought over some homemade rasgullas to my house",
+            "context": [
+              "Riya",
+              "rasgullas"
+            ]
+          }
+        ]
+      },
+      "living room": {
+        "attributes": {
+          "is_part_of_home": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "had a heart-to-heart with mom",
+            "context": [
+              "mom",
+              "dinner"
+            ]
+          }
+        ]
+      }
+    },
+    "events": {
+      "ticket counter incident": {
+        "attributes": {
+          "name": "ticket counter incident",
+          "traits": [
+            "stressful",
+            "awkward"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "realized I’d made a mistake in booking",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "my mother used to say: 'Patience and confidence, Durva. You have everything you need to fix things.'",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "I felt so proud of myself",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "it was about handling the stress without backing down",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "train ride to CSMT Railway Museum": {
+        "attributes": {
+          "name": "train ride to CSMT Railway Museum",
+          "traits": [
+            "crowded",
+            "chaotic"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "Local trains in Mumbai are always packed",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the hustle, the noise, the energy—it’s all so unique",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "visit to CSMT Railway Museum": {
+        "attributes": {
+          "name": "visit to CSMT Railway Museum",
+          "traits": [
+            "adventurous",
+            "exciting"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like an adventure right from the start",
+            "context": [
+              "Durva",
+              "Om"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "secret—just the two of us, no one else knowing",
+            "context": [
+              "Durva",
+              "Om"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like a small rebellion, even though it wasn’t really one",
+            "context": [
+              "Durva",
+              "Om"
+            ]
+          }
+        ]
+      },
+      "argument with Gargie": {
+        "attributes": {
+          "name": "argument with Gargie"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Naturally, I lost my patience.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "“Gargie!” I yelled. “You can’t keep leaving your books here! I need to get ready!”",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "She barely looked up from her phone, rolling her eyes.",
+            "context": [
+              "Gargie",
+              "phone"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "“Relax, Durva. It’s not like you need to be in here for hours. Give me five minutes.”",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "After a bit more shouting and a back-and-forth about whose turn it was to use the bathroom (since we both have a tendency to forget things like that), we finally reached a compromise.",
+            "context": [
+              "Gargie",
+              "bathroom"
+            ]
+          }
+        ]
+      },
+      "compromise with Gargie": {
+        "attributes": {
+          "name": "compromise with Gargie"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I agreed to give her another 10 minutes if she promised to clean up the bathroom afterward, and she agreed to not turn it into a pharmacy study zone next time.",
+            "context": [
+              "Gargie",
+              "bathroom",
+              "pharmacy study zone"
+            ]
+          }
+        ]
+      },
+      "teasing by Gargie": {
+        "attributes": {
+          "name": "teasing by Gargie"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Afterward, she teased me a bit, saying, “You know, we should plan a trip together soon, just you and me. You know, something fun.”",
+            "context": [
+              "Gargie",
+              "trip"
+            ]
+          }
+        ]
+      },
+      "trip to the museum": {
+        "attributes": {
+          "name": "trip to the museum"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I got home from the trip to the museum with Om, still buzzing with excitement, but things quickly took a turn when I had to deal with Gargie.",
+            "context": [
+              "Durva",
+              "Om",
+              "Gargie"
+            ]
+          }
+        ]
+      },
+      "birthday_party": {
+        "attributes": {
+          "name": "birthday_party",
+          "event": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I spent the day at my cousins’ house in Nerul for a birthday party.",
+            "context": [
+              "cousins_house",
+              "Nerul"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The house was buzzing with excitement—music, chatter, and kids running around everywhere.",
+            "context": [
+              "cousins_house",
+              "family_gathering"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "It was one of those classic family gatherings where everyone is either stuffing their faces with food or talking over each other about the latest family gossip.",
+            "context": [
+              "family_gathering",
+              "food",
+              "gossip"
+            ]
+          }
+        ]
+      },
+      "movie plan": {
+        "attributes": {
+          "type": "event",
+          "description": "Durva and Mansa planned to watch a movie together"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Maybe next time you can take me to a movie instead of feeding me spicy bombs.",
+            "context": [
+              "Durva",
+              "Mansa"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Let’s do it! A nice, chill movie, no spice involved. Just a relaxing day.",
+            "context": [
+              "Durva",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "spicy food incident": {
+        "attributes": {
+          "type": "event",
+          "description": "Mansa ate ridiculously spicy food"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Mansa insisted on ordering something ridiculously spicy",
+            "context": [
+              "Durva",
+              "Mansa",
+              "street food stalls in Panvel"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "Her face turned red, her eyes started watering, and before I knew it, she was practically fanning herself with her hands.",
+            "context": [
+              "Durva",
+              "Mansa",
+              "spicy food"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "She started sniffling and her lips were practically trembling.",
+            "context": [
+              "Durva",
+              "Mansa",
+              "spicy food"
+            ]
+          },
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "She started crying!",
+            "context": [
+              "Durva",
+              "Mansa",
+              "spicy food"
+            ]
+          }
+        ]
+      },
+      "exams": {
+        "attributes": {
+          "event": "exams"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Vedant, who’s always been a bit of a serious type, started talking about his upcoming exams and how much he needed to study.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          },
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "I started wondering if Om and I could maybe study together sometime soon.",
+            "context": [
+              "Durva",
+              "Om"
+            ]
+          }
+        ]
+      },
+      "lunch": {
+        "attributes": {
+          "event": "lunch"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "During lunch at Rasayani College, I sat with Vedant, Sangram, and Vedanti.",
+            "context": [
+              "Rasayani College",
+              "Durva",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "break": {
+        "attributes": {
+          "name": "break",
+          "description": "taking a break from college work"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "I realized I really need a break before diving back into all the college work.",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "studying_session": {
+        "attributes": {
+          "name": "studying session",
+          "description": "helping Aviraj prepare for KTs"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Om and I met up with Aviraj at the library to help him prepare for his upcoming KTs.",
+            "context": [
+              "Durva",
+              "Om",
+              "Aviraj",
+              "library",
+              "KTs"
+            ]
+          }
+        ]
+      },
+      "water fight": {
+        "attributes": {
+          "type": "fun activity",
+          "features": [
+            "lazy river",
+            "water",
+            "fun"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We even ended up having a water fight in the lazy river, and I haven’t laughed that much in a long time.",
+            "context": [
+              "lazy river",
+              "water fight",
+              "laughed"
+            ]
+          }
+        ]
+      },
+      "water slide experience": {
+        "attributes": {
+          "type": "thrilling experience",
+          "features": [
+            "fear",
+            "encouragement",
+            "fun"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "But Vedant’s girlfriend, Asha, was really nervous about it.",
+            "context": [
+              "Asha",
+              "nervous"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could tell she was freaking out a little bit.",
+            "context": [
+              "Asha",
+              "freaking out"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "So, I sat with her for a minute, talking her through it.",
+            "context": [
+              "Durva",
+              "talking her through it"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "She hesitated for a moment but agreed to give it a try.",
+            "context": [
+              "Asha",
+              "hesitated",
+              "agreed"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "We waited in line together, talking about random things to distract her from the nerves.",
+            "context": [
+              "Durva",
+              "Asha",
+              "random things",
+              "nerves"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "When it was finally our turn, we climbed up to the top.",
+            "context": [
+              "Durva",
+              "Asha",
+              "top"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could feel her grip on the rail tighten, but she took a deep breath, and we slid down together.",
+            "context": [
+              "Durva",
+              "Asha",
+              "grip",
+              "deep breath",
+              "slid down"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could hear her laughing the whole way down, and by the time we hit the water, she was smiling from ear to ear.",
+            "context": [
+              "Asha",
+              "laughing",
+              "smiling"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“I can’t believe I did it!” she said, laughing and splashing around.",
+            "context": [
+              "Asha",
+              "laughing",
+              "splashing"
+            ]
+          }
+        ]
+      },
+      "breakup": {
+        "attributes": {
+          "type": "event"
+        },
+        "memory": [
+          {
+            "timestamp": "",
+            "content": "",
+            "context": [
+              "Snehal"
+            ]
+          }
+        ]
+      },
+      "conversation": {
+        "attributes": {
+          "type": "event"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "Durva",
+              "Snehal",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "meeting with Mansi Subhedar": {
+        "attributes": {
+          "purpose": "discussing an upcoming project",
+          "outcome": "felt more confident and gained new insights"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "had a meeting with Mansi Subhedar about an upcoming project",
+            "context": [
+              "Durva",
+              "Mansi Subhedar",
+              "upcoming project"
+            ]
+          }
+        ]
+      },
+      "assignment work": {
+        "attributes": {
+          "status": "in progress",
+          "deadline": "soon"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-04",
+            "content": "We started going over the assignment step by step, dividing the work into manageable tasks.",
+            "context": [
+              "Durva",
+              "Shravni",
+              "library"
+            ]
+          }
+        ]
+      },
+      "group trip": {
+        "attributes": {
+          "purpose": "get away from stress of assignments and exams",
+          "status": "upcoming"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-04",
+            "content": "Shravni mentioned a group trip coming up soon.",
+            "context": [
+              "Shravni",
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "gossiping about campus couples": {
+        "attributes": {
+          "name": "gossiping about campus couples",
+          "description": "event where Durva and Praptee talked about campus couples"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "We started by talking about a couple in our class who always seems to be arguing in the hallway.",
+            "context": [
+              "Durva",
+              "Praptee",
+              "canteen"
+            ]
+          }
+        ]
+      },
+      "laughing and joking": {
+        "attributes": {
+          "name": "laughing and joking",
+          "description": "event where Durva and Praptee laughed and joked about campus couples"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "We were both in stitches by the time we finished.",
+            "context": [
+              "Durva",
+              "Praptee",
+              "canteen"
+            ]
+          }
+        ]
+      },
+      "realizing the importance of hanging out with Om": {
+        "attributes": {
+          "name": "realizing the importance of hanging out with Om",
+          "description": "event where Durva realized they haven't hung out with Om in a while"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "I realized something—I haven't hung out with Om in a while.",
+            "context": [
+              "Durva",
+              "Om",
+              "assignments",
+              "deadlines"
+            ]
+          }
+        ]
+      },
+      "potluck": {
+        "attributes": {
+          "description": "hosting a potluck with friends"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "We should host a potluck soon. Get everyone to bring their specialties. I bet it’ll be so much fun!",
+            "context": [
+              "Riya",
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "tasting and critiquing rasgullas": {
+        "attributes": {
+          "description": "tasting and critiquing rasgullas like food critics"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "We spent the afternoon tasting and critiquing them like food critics.",
+            "context": [
+              "Riya",
+              "rasgullas"
+            ]
+          }
+        ]
+      },
+      "college trip": {
+        "attributes": {
+          "name": "college trip",
+          "description": "potential trip for Durva and Gargie"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "mentioned as a potential event",
+            "context": [
+              "Durva",
+              "Gargie",
+              "college"
+            ]
+          }
+        ]
+      },
+      "helping Gargie with math homework": {
+        "attributes": {
+          "name": "helping Gargie with math homework",
+          "description": "Durva helped Gargie with her math homework"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "occurred",
+            "context": [
+              "Durva",
+              "Gargie",
+              "math homework"
+            ]
+          }
+        ]
+      },
+      "heart-to-heart_conversation": {
+        "attributes": {
+          "is_important": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "had a heart-to-heart with mom",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          }
+        ]
+      },
+      "internship_application": {
+        "attributes": {
+          "is_step_toward_future": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "applied for an internship",
+            "context": [
+              "future",
+              "practical experience"
+            ]
+          }
+        ]
+      }
+    },
+    "objects": {
+      "tickets": {
+        "attributes": {
+          "name": "tickets",
+          "traits": [
+            "corrected"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "realized I’d made a mistake in booking",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the lady corrected it and handed me the tickets",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "vintage locomotives": {
+        "attributes": {
+          "name": "vintage locomotives",
+          "traits": [
+            "big",
+            "heavy",
+            "imposing",
+            "magical"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "the vintage locomotives were incredible",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "there was something calming about being in the presence of these giants",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "notes": {
+        "attributes": {
+          "name": "notes",
+          "description": "stacks of notes"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Her pharmacy books were scattered all over the counter, her notes were piled high, and the place felt more like a study room than a bathroom.",
+            "context": [
+              "Gargie",
+              "bathroom",
+              "pharmacy books"
+            ]
+          },
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "surrounded by stacks of books and notes",
+            "context": [
+              "library"
+            ]
+          }
+        ]
+      },
+      "pharmacy books": {
+        "attributes": {
+          "name": "pharmacy books"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Her pharmacy books were scattered all over the counter, her notes were piled high, and the place felt more like a study room than a bathroom.",
+            "context": [
+              "Gargie",
+              "bathroom",
+              "notes"
+            ]
+          }
+        ]
+      },
+      "phone": {
+        "attributes": {
+          "name": "phone"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "She barely looked up from her phone, rolling her eyes.",
+            "context": [
+              "Gargie"
+            ]
+          }
+        ]
+      },
+      "birthday_cake": {
+        "attributes": {
+          "name": "birthday_cake",
+          "object": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The birthday cake was huge, and I definitely had my fair share of it—chocolate layers with cream on top.",
+            "context": [
+              "chocolate_layers",
+              "cream_on_top"
+            ]
+          }
+        ]
+      },
+      "cup": {
+        "attributes": {
+          "name": "cup",
+          "object": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "She was carrying a cup in one hand while trying to juggle some snacks in the other, and of course, the inevitable happened.",
+            "context": [
+              "snacks",
+              "juice_spill"
+            ]
+          }
+        ]
+      },
+      "snacks": {
+        "attributes": {
+          "name": "snacks",
+          "object": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "She was carrying a cup in one hand while trying to juggle some snacks in the other, and of course, the inevitable happened.",
+            "context": [
+              "cup",
+              "juice_spill"
+            ]
+          }
+        ]
+      },
+      "tissues": {
+        "attributes": {
+          "name": "tissues",
+          "object": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I quickly grabbed some tissues and helped her clean it up before anyone noticed.",
+            "context": [
+              "juice_spill",
+              "cleaning"
+            ]
+          }
+        ]
+      },
+      "napkin": {
+        "attributes": {
+          "type": "object",
+          "description": "used to wipe Mansa's face"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "I quickly grabbed a napkin and handed her some water.",
+            "context": [
+              "Durva",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "water": {
+        "attributes": {
+          "type": "object",
+          "description": "used to help Mansa with spicy food"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "I quickly grabbed a napkin and handed her some water.",
+            "context": [
+              "Durva",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "canteen": {
+        "attributes": {
+          "name": "canteen"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "We usually end up in the same spot—at the corner table near the canteen, where the noise feels far enough away to actually hear each other’s voices.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "table": {
+        "attributes": {
+          "name": "table"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "We usually end up in the same spot—at the corner table near the canteen, where the noise feels far enough away to actually hear each other’s voices.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "books": {
+        "attributes": {
+          "name": "books",
+          "description": "stacks of books"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "surrounded by stacks of books and notes",
+            "context": [
+              "library"
+            ]
+          }
+        ]
+      },
+      "water slide": {
+        "attributes": {
+          "type": "amusement park attraction",
+          "features": [
+            "steep",
+            "fast",
+            "scary"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "There was one slide, the big one, that everyone was excited to try.",
+            "context": [
+              "big slide",
+              "excited"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“It looks too steep!”",
+            "context": [
+              "steep"
+            ]
+          }
+        ]
+      },
+      "cake": {
+        "attributes": {
+          "type": "food"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "favorite café"
+            ]
+          }
+        ]
+      },
+      "coffee": {
+        "attributes": {
+          "type": "beverage"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "favorite café"
+            ]
+          }
+        ]
+      },
+      "project brief": {
+        "attributes": {
+          "contents": "assignment details"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-04",
+            "content": "as soon as we opened the project brief, Shravni’s face went from focused to overwhelmed.",
+            "context": [
+              "Shravni",
+              "library"
+            ]
+          }
+        ]
+      },
+      "flowers": {
+        "attributes": {
+          "name": "flowers",
+          "description": "gift given by the guy to apologize for the 'tragic sneeze incident'"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "the guy supposedly brought her flowers just to apologize for 'the tragic sneeze incident'.",
+            "context": [
+              "Durva",
+              "Praptee",
+              "canteen"
+            ]
+          }
+        ]
+      },
+      "juice": {
+        "attributes": {
+          "name": "juice",
+          "description": "drink that Durva almost spit out"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "I almost spit out my juice.",
+            "context": [
+              "Durva",
+              "Praptee",
+              "canteen"
+            ]
+          }
+        ]
+      },
+      "box": {
+        "attributes": {
+          "description": "container for rasgullas"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "When I saw the box, I could already tell she was proud of her work.",
+            "context": [
+              "Riya",
+              "rasgullas"
+            ]
+          }
+        ]
+      },
+      "rasgullas": {
+        "attributes": {
+          "description": "homemade Indian sweet",
+          "traits": [
+            "softness",
+            "fluffiness",
+            "balance of sugar"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "Riya brought over some homemade rasgullas",
+            "context": [
+              "Riya",
+              "Durva's house"
+            ]
+          },
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "They're almost there, but the sweetness could be toned down just a little bit.",
+            "context": [
+              "Durva",
+              "rasgullas"
+            ]
+          }
+        ]
+      },
+      "math homework": {
+        "attributes": {
+          "name": "math homework",
+          "description": "Gargie's math homework"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "was struggled with by Gargie",
+            "context": [
+              "Gargie",
+              "equations"
+            ]
+          }
+        ]
+      },
+      "internship": {
+        "attributes": {
+          "is_related_to_future": true,
+          "is_related_to_practical_experience": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "applied for an internship",
+            "context": [
+              "future",
+              "practical experience"
+            ]
+          }
+        ]
+      }
+    },
+    "concepts": {
+      "adventure": {
+        "attributes": {
+          "name": "adventure",
+          "traits": [
+            "exciting",
+            "rebellious"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like an adventure right from the start",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "secret—just the two of us, no one else knowing",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "felt like a small rebellion, even though it wasn’t really one",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "discovery": {
+        "attributes": {
+          "name": "discovery",
+          "traits": [
+            "exciting",
+            "fulfilling"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "today was a reminder of how much I love discovering new things",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "patience and confidence": {
+        "attributes": {
+          "name": "patience and confidence",
+          "traits": [
+            "wise",
+            "empowering"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-25 00:00:00",
+            "content": "my mother used to say: 'Patience and confidence, Durva. You have everything you need to fix things.'",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "pharmacy study zone": {
+        "attributes": {
+          "name": "pharmacy study zone"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I agreed to give her another 10 minutes if she promised to clean up the bathroom afterward, and she agreed to not turn it into a pharmacy study zone next time.",
+            "context": [
+              "Gargie",
+              "bathroom"
+            ]
+          }
+        ]
+      },
+      "trip": {
+        "attributes": {
+          "name": "trip"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Afterward, she teased me a bit, saying, “You know, we should plan a trip together soon, just you and me. You know, something fun.”",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "Maybe we could go on a trip, just the two of us.",
+            "context": [
+              "Gargie"
+            ]
+          },
+          {
+            "timestamp": "2025-04-26 00:00:00",
+            "content": "I don't know where, but I have a feeling it wouldn’t be as crazy as some of my adventures with Om, but it might be fun in its own way.",
+            "context": [
+              "Om"
+            ]
+          }
+        ]
+      },
+      "art_installation": {
+        "attributes": {
+          "name": "art_installation",
+          "concept": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I kept teasing her, telling her she was making a new “art installation” on the carpet.",
+            "context": [
+              "Aditi",
+              "juice_spill"
+            ]
+          }
+        ]
+      },
+      "family_gathering": {
+        "attributes": {
+          "name": "family_gathering",
+          "concept": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "It was one of those classic family gatherings where everyone is either stuffing their faces with food or talking over each other about the latest family gossip.",
+            "context": [
+              "food",
+              "gossip"
+            ]
+          },
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "The house was buzzing with excitement—music, chatter, and kids running around everywhere.",
+            "context": [
+              "cousins_house",
+              "birthday_party"
+            ]
+          }
+        ]
+      },
+      "hangouts": {
+        "attributes": {
+          "name": "hangouts",
+          "concept": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-27 00:00:00",
+            "content": "I’ve spent so much time with family lately that I didn’t realize how much I miss the random, laid-back hangouts with Om and Gargie—how we could just go to a random spot, talk about anything and everything, and lose track of time.",
+            "context": [
+              "Om",
+              "Gargie"
+            ]
+          }
+        ]
+      },
+      "relaxation": {
+        "attributes": {
+          "type": "concept",
+          "description": "importance of taking a break"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-28 00:00:00",
+            "content": "We both need to relax, and a movie sounds like the perfect excuse to take a break from everything.",
+            "context": [
+              "Durva",
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "laughter": {
+        "attributes": {
+          "concept": "laughter"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Today was one of those carefree, laughter-filled moments I needed.",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "We all burst out laughing as Sangram ran his hands through his hair, trying to smooth it down, but it was no use.",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "stress": {
+        "attributes": {
+          "concept": "stress",
+          "causes": [
+            "assignments",
+            "exams"
+          ],
+          "effects": [
+            "overwhelmed",
+            "stressed"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "It felt so… normal, so fun, compared to all the stress that’s been piling up.",
+            "context": [
+              "Durva"
+            ]
+          },
+          {
+            "timestamp": "2025-05-04",
+            "content": "all the stress of assignments and exams",
+            "context": [
+              "group trip"
+            ]
+          }
+        ]
+      },
+      "teasing": {
+        "attributes": {
+          "concept": "teasing"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-29 12:00:00",
+            "content": "Vedanti, never one to let a chance for teasing go by, leaned over and said, “Sangram, did you forget to comb your hair this morning, or is this a new ‘wild’ look you’re going for?”",
+            "context": [
+              "Rasayani College",
+              "lunch",
+              "Durva",
+              "Vedant",
+              "Sangram",
+              "Vedanti"
+            ]
+          }
+        ]
+      },
+      "KTs": {
+        "attributes": {
+          "name": "KTs",
+          "description": "upcoming exams"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-04-30 00:00:00",
+            "content": "Om and I met up with Aviraj at the library to help him prepare for his upcoming KTs.",
+            "context": [
+              "Durva",
+              "Om",
+              "Aviraj",
+              "library"
+            ]
+          }
+        ]
+      },
+      "encouragement": {
+        "attributes": {
+          "type": "motivational concept",
+          "features": [
+            "supportive",
+            "helpful",
+            "confidence-building"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "So, I sat with her for a minute, talking her through it.",
+            "context": [
+              "Durva",
+              "talking her through it"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“Asha, I get it, it’s a huge drop. But think of how fun it’s going to be! You’re with all of us, and I promise, it’s not as scary as it looks. We’ll go together, okay? You’ll feel so proud when you’ve done it.”",
+            "context": [
+              "Durva",
+              "Asha",
+              "fun",
+              "proud"
+            ]
+          }
+        ]
+      },
+      "fear": {
+        "attributes": {
+          "type": "emotional concept",
+          "features": [
+            "anxiety",
+            "apprehension",
+            "nervousness"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "But Vedant’s girlfriend, Asha, was really nervous about it.",
+            "context": [
+              "Asha",
+              "nervous"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "I could tell she was freaking out a little bit.",
+            "context": [
+              "Asha",
+              "freaking out"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "She kept looking up at the slide, shaking her head.",
+            "context": [
+              "Asha",
+              "shaking her head"
+            ]
+          },
+          {
+            "timestamp": "2025-05-01 00:00:00",
+            "content": "“I can’t do it, Durva,” she said, her voice filled with hesitation.",
+            "context": [
+              "Asha",
+              "hesitation"
+            ]
+          }
+        ]
+      },
+      "healing": {
+        "attributes": {
+          "type": "concept"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "Durva",
+              "advice"
+            ]
+          }
+        ]
+      },
+      "optimism": {
+        "attributes": {
+          "type": "concept"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-02 00:00:00",
+            "content": "",
+            "context": [
+              "Mansa"
+            ]
+          }
+        ]
+      },
+      "balance": {
+        "attributes": {
+          "description": "key to managing work, study, and personal life"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "Mansi advised on the importance of balance",
+            "context": [
+              "Mansi Subhedar",
+              "Durva",
+              "future"
+            ]
+          }
+        ]
+      },
+      "internships": {
+        "attributes": {
+          "description": "hands-on experience for figuring out career paths"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "Mansi advised on considering internships",
+            "context": [
+              "Mansi Subhedar",
+              "Durva",
+              "future"
+            ]
+          }
+        ]
+      },
+      "priorities": {
+        "attributes": {
+          "description": "important for making decisions and taking risks"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "Mansi advised on setting priorities",
+            "context": [
+              "Mansi Subhedar",
+              "Durva",
+              "future"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "attributes": {
+          "description": "necessary for growth and learning"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-03 00:00:00",
+            "content": "Mansi advised on taking small risks",
+            "context": [
+              "Mansi Subhedar",
+              "Durva",
+              "future"
+            ]
+          }
+        ]
+      },
+      "recharge": {
+        "attributes": {
+          "methods": [
+            "taking a short break"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-04",
+            "content": "sometimes, you need that kind of escape to recharge.",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "assignments": {
+        "attributes": {
+          "name": "assignments",
+          "description": "schoolwork that Durva and Om usually worry about"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "It was nice to just enjoy the little things with a friend and not worry about assignments or deadlines for a while.",
+            "context": [
+              "Durva",
+              "Om",
+              "canteen"
+            ]
+          }
+        ]
+      },
+      "deadlines": {
+        "attributes": {
+          "name": "deadlines",
+          "description": "time limits for schoolwork that Durva and Om usually worry about"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-05 00:00:00",
+            "content": "It was nice to just enjoy the little things with a friend and not worry about assignments or deadlines for a while.",
+            "context": [
+              "Durva",
+              "Om",
+              "canteen"
+            ]
+          }
+        ]
+      },
+      "food criticism": {
+        "attributes": {
+          "description": "judging and critiquing food"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-06 00:00:00",
+            "content": "We spent the afternoon tasting and critiquing them like food critics.",
+            "context": [
+              "Riya",
+              "rasgullas"
+            ]
+          }
+        ]
+      },
+      "equations": {
+        "attributes": {
+          "name": "equations",
+          "description": "mathematical problems"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "were struggled with by Gargie",
+            "context": [
+              "Gargie",
+              "math homework"
+            ]
+          }
+        ]
+      },
+      "humor": {
+        "attributes": {
+          "name": "humor",
+          "description": "added by Durva to lighten the mood"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "was used by Durva",
+            "context": [
+              "Durva",
+              "Gargie",
+              "math homework"
+            ]
+          }
+        ]
+      },
+      "math": {
+        "attributes": {
+          "name": "math",
+          "description": "subject of study"
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-07 00:00:00",
+            "content": "was explained by Durva",
+            "context": [
+              "Durva",
+              "Gargie",
+              "equations"
+            ]
+          }
+        ]
+      },
+      "equality": {
+        "attributes": {
+          "is_important": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "mom spoke about equality",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          }
+        ]
+      },
+      "women's_rights": {
+        "attributes": {
+          "is_important": true,
+          "is_related_to_equality": true
+        },
+        "memory": [
+          {
+            "timestamp": "2025-05-08",
+            "content": "mom spoke about women's rights",
+            "context": [
+              "mom",
+              "living room",
+              "dinner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "raw_history": [
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "April 25, 2025Today was one of those days that felt like an adventure right from the start. Om and I decided, on a whim, to visit the CSMT Railway Museum in Mumbai. It was meant to be a secret—just the two of us, no one else knowing, and I could already feel the excitement bubbling inside me. I don't often get the chance to do things like this without someone watching, so this felt like a small rebellion, even though it wasn’t really one.The train ride there was a whole experience in itself. Local trains in Mumbai are always packed, but today it felt especially crowded. People were practically hanging out of the doors, and we were squished in the middle of it all. At first, I was a little annoyed by the chaos, but then I remembered that this was part of the city’s charm. The hustle, the noise, the energy—it’s all so unique. Om was beside me, keeping things light with his usual jokes, which helped ease the frustration of being packed in like sardines.When we reached the museum, I felt like a kid in a candy shop. The vintage locomotives were incredible—big, heavy, and imposing, but there was something magical about how they stood there, like a glimpse into the past. I could almost hear the chugging of the trains as they traveled through history. There was something calming about being in the presence of these giants, even though they no longer moved.But of course, nothing goes smoothly without a little hiccup. At the ticket counter, I realized I’d made a mistake in booking—somehow, I’d mixed up the dates. For a second, I panicked. The lady behind the counter seemed irritated, and I could feel the pressure rising. But then I remembered something my mother used to say: \"Patience and confidence, Durva. You have everything you need to fix things.\" I took a deep breath and explained the mix-up, not backing down even when the situation felt awkward. The lady sighed, but after a few minutes of checking, she corrected it and handed me the tickets.I felt so proud of myself. It wasn’t just about getting the tickets sorted; it was about handling the stress without backing down. We spent a good amount of time walking around the museum, taking photos and imagining what it would have been like to travel on these trains back in the day. Om seemed just as fascinated as I was, and we both agreed that we needed to do this more often—just pick a place, go without telling anyone, and explore.We don’t know where we’ll go next. Maybe we’ll hit a hidden café or explore another museum, or perhaps something completely unexpected will come up. What I do know is that today was a reminder of how much I love discovering new things, and that with a little patience, things always work out.I can’t wait for our next adventure.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "April 26, 2025Today was... one of those days. I got home from the trip to the museum with Om, still buzzing with excitement, but things quickly took a turn when I had to deal with Gargie. It all started with the bathroom. I had just woken up and was in desperate need of getting ready for the day when I found the bathroom door locked. Of course, I knew what that meant—Gargie had probably taken over the space again. When I finally got in, it was a disaster. Her pharmacy books were scattered all over the counter, her notes were piled high, and the place felt more like a study room than a bathroom. I don’t get why she can’t just keep her stuff in her room like everyone else!Naturally, I lost my patience. “Gargie!” I yelled. “You can’t keep leaving your books here! I need to get ready!” She barely looked up from her phone, rolling her eyes. “Relax, Durva. It’s not like you need to be in here for hours. Give me five minutes.”Five minutes? It was already past noon, and I had my own plans! After a bit more shouting and a back-and-forth about whose turn it was to use the bathroom (since we both have a tendency to forget things like that), we finally reached a compromise. I agreed to give her another 10 minutes if she promised to clean up the bathroom afterward, and she agreed to not turn it into a pharmacy study zone next time. Afterward, she teased me a bit, saying, “You know, we should plan a trip together soon, just you and me. You know, something fun.”I gave her an exaggerated eye-roll, but I couldn’t help smiling. As annoying as she can be, there’s something about spending time with her that feels... comforting. Maybe we could go on a trip, just the two of us. I don't know where, but I have a feeling it wouldn’t be as crazy as some of my adventures with Om, but it might be fun in its own way.Anyway, at least the bathroom’s clean now. Gargie and I still have our moments, but in the end, we always figure things out. It’s just another day in the life at home, I guess.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "April 27, 2025Today was a whirlwind of family, food, and a little bit of chaos. I spent the day at my cousins’ house in Nerul for a birthday party. The house was buzzing with excitement—music, chatter, and kids running around everywhere. It was one of those classic family gatherings where everyone is either stuffing their faces with food or talking over each other about the latest family gossip.The birthday cake was huge, and I definitely had my fair share of it—chocolate layers with cream on top. As usual, it was impossible to resist. But the highlight of the day had to be when my younger cousin, Aditi, accidentally spilled juice all over the carpet. She was carrying a cup in one hand while trying to juggle some snacks in the other, and of course, the inevitable happened. The juice splashed everywhere, and Aditi just froze, looking horrified. I couldn’t help but laugh—she looked so embarrassed, but honestly, it was kind of cute. I quickly grabbed some tissues and helped her clean it up before anyone noticed. We both ended up giggling as we tried to dab the carpet without making it worse. Aditi was so relieved when no one seemed to mind. I kept teasing her, telling her she was making a new “art installation” on the carpet. As the evening wore on, I started feeling a bit restless. The party was fun, but I found myself missing my friends. I’ve spent so much time with family lately that I didn’t realize how much I miss the random, laid-back hangouts with Om and Gargie—how we could just go to a random spot, talk about anything and everything, and lose track of time. I guess I’m just so used to my friends now. I started wondering what the rest of the weekend would hold. Maybe I could make plans with Om or see if Gargie’s up for a quick outing tomorrow. Anyway, I guess that’s the thing about family events—they’re great, but they always leave me with this little sense of wanting something more, something different. But for now, I’ll just enjoy the rest of the night here and try to not eat too much more cake.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "April 28, 2025Today was one of those perfectly simple, yet hilarious days. I met up with Mansa at one of the street food stalls in Panvel. It’s our usual spot for a quick bite—cheap, delicious, and always a bit chaotic with all the people around. We both ended up getting different snacks, but Mansa insisted on ordering something ridiculously spicy. I tried to warn her, but of course, she was determined to prove she could handle it. The moment she took a bite, I knew it was a mistake. Her face turned red, her eyes started watering, and before I knew it, she was practically fanning herself with her hands. I couldn’t stop laughing. She started sniffling and her lips were practically trembling. And then, the tears—she started crying! It was just too funny. Of course, I quickly grabbed a napkin and handed her some water. “You okay?” I asked, trying not to laugh too much. She nodded, still trying to recover from the fire in her mouth. “Next time, maybe go easy on the spice, Mansa,” I teased. She managed to laugh through her tears, wiping her face with the napkin. “Yeah, yeah, lesson learned. But you know what? I’m definitely going to get you back for this.” I grinned. “Sure, sure. Maybe next time you can take me to a movie instead of feeding me spicy bombs.” She perked up at the suggestion, and I could tell she was already planning. “Let’s do it! A nice, chill movie, no spice involved. Just a relaxing day. What do you say?”I’m honestly looking forward to it. We both need to relax, and a movie sounds like the perfect excuse to take a break from everything. Besides, after today’s little comedy show, I think Mansa deserves it. I guess the best part of the day wasn’t even the food—it was just sitting with Mansa, laughing at her spice-induced meltdown and knowing we could just enjoy the simplest moments together. - Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "April 29, 2025Today was one of those carefree, laughter-filled moments I needed. During lunch at Rasayani College, I sat with Vedant, Sangram, and Vedanti. We usually end up in the same spot—at the corner table near the canteen, where the noise feels far enough away to actually hear each other’s voices.Sangram was looking especially disheveled today, with his hair all over the place, like he’d just rolled out of bed. Vedanti, never one to let a chance for teasing go by, leaned over and said, “Sangram, did you forget to comb your hair this morning, or is this a new ‘wild’ look you’re going for?”We all burst out laughing as Sangram ran his hands through his hair, trying to smooth it down, but it was no use. It was like trying to tame a lion’s mane. He gave Vedanti a mock glare, but you could tell he was secretly amused. “Very funny, Vedanti,” he muttered, but there was a grin tugging at his lips. I couldn’t help but laugh with them, it felt so light and easy. The teasing, the laughter, the simple moments like this. Even as Vedant, who’s always been a bit of a serious type, started talking about his upcoming exams and how much he needed to study, I couldn’t shake the smile from my face. It felt so… normal, so fun, compared to all the stress that’s been piling up.I started wondering if Om and I could maybe study together sometime soon. We’ve been talking about our exams, but we never really seem to find the time to focus together. It’d be nice to take a break from all the pressure and just sit, study, and chat when we need a breather.Anyway, today wasn’t about exams or stress. It was about hanging out with my friends and just enjoying the silly moments, like teasing Sangram about his hair. It’s exactly what I needed to recharge a little.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "April 30, 2025Today was a mix of studying and patience, but also a reminder that it’s okay to struggle sometimes. Om and I met up with Aviraj at the library to help him prepare for his upcoming KTs. He was really stressed out about them, and honestly, I get it—those exams can feel like a mountain to climb, especially when the concepts just aren’t clicking.We sat down at a quiet corner table, surrounded by stacks of books and notes. Aviraj seemed a little defeated at first, fumbling through his pages and muttering to himself. Some of the topics really seemed to confuse him, so I took a deep breath and started going over the basics, trying to make it simpler for him. Om kept adding in his own explanations, but I could tell Aviraj was still struggling to get a few of the concepts to stick.At one point, we were talking about a formula he’d forgotten, and when he looked at us blankly, Om couldn’t help but tease him a bit. “Come on, Aviraj, are you sure you didn’t sleep through the entire semester?” he joked, which got us both laughing. Aviraj tried to smile, but I could tell he was embarrassed. I quickly reassured him, “It’s okay, everyone forgets stuff sometimes. You’ll get it, just give yourself some time to work through it.”I could see Aviraj start to relax a bit after that. It felt good to be able to help, even if it meant repeating things a few times. We didn’t mind; it was worth it to see him finally start to catch on. By the end of the session, he was feeling much better, and we managed to go over enough material to make him feel more confident.Afterward, I made plans to meet Mansa again. I promised her I’d catch up with her soon, but I realized I really need a break before diving back into all the college work. I’m starting to feel like my brain needs a pause—just a little time to recharge before everything picks up again. Maybe tomorrow I can take it easy for a bit and enjoy some time with her. We’ll figure out something fun to do, something far from the stress of books and exams.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 1, 2025Today was a blast! I spent the day at a water park with Vedant and his gang of friends. It was such a good break from everything—sun, water, slides, and endless laughter. We all tried every water slide we could find, some faster and scarier than others. It felt amazing to just let loose and have fun, forgetting about exams and stress for a while.There was one slide, the big one, that everyone was excited to try. But Vedant’s girlfriend, Asha, was really nervous about it. I could tell she was freaking out a little bit. She kept looking up at the slide, shaking her head. “I can’t do it, Durva,” she said, her voice filled with hesitation. “It looks too steep!”I could see how much she wanted to go, but the fear was holding her back. So, I sat with her for a minute, talking her through it. “Asha, I get it, it’s a huge drop. But think of how fun it’s going to be! You’re with all of us, and I promise, it’s not as scary as it looks. We’ll go together, okay? You’ll feel so proud when you’ve done it.”She hesitated for a moment but agreed to give it a try. We waited in line together, talking about random things to distract her from the nerves. When it was finally our turn, we climbed up to the top. I could feel her grip on the rail tighten, but she took a deep breath, and we slid down together. I could hear her laughing the whole way down, and by the time we hit the water, she was smiling from ear to ear.“I can’t believe I did it!” she said, laughing and splashing around. It was so rewarding to see her face light up like that. Everyone was cheering, and it felt like such a win. It was one of those moments where you realize how powerful a little encouragement can be.The rest of the day was filled with more laughs, more slides, and a whole lot of fun. We even ended up having a water fight in the lazy river, and I haven’t laughed that much in a long time. It was the perfect way to spend the day.Though, I couldn’t help but feel a little guilty by the end of the day. I realized I hadn’t spent any time with Om. We’ve both been so caught up with our stuff lately, and I know he’s been studying hard too. I’m definitely planning to catch up with him soon, maybe just a chill hangout or even a study session. I miss those moments with him.But for today, I’m just going to hold on to the memories of laughter and the joy of seeing Asha face her fear. It was a good day.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 2, 2025Today was a quiet but meaningful day spent with Snehal and Mansa at our favorite café. We all needed a little escape from the chaos of life, and what better way than over some coffee and cake?Snehal’s been going through a tough time with her breakup, and I could see it in her eyes. She wasn’t her usual bubbly self. As soon as we sat down, she started talking about what happened, and I could tell how heavy everything was on her. I just listened at first, letting her get everything off her chest. I knew there wasn’t much I could say, but sometimes, all you need is someone to listen. After a while, I offered her some advice, gently reminding her that healing takes time and it’s okay to feel hurt. \"You deserve so much better, Snehal,\" I said, my voice soft but firm. \"I know it doesn’t feel like it now, but you’ll get through this, and you’ll come out stronger.\" She nodded, and I could see a little of her tension ease up. I hope my words helped, even if just a little.Mansa, as usual, shifted the mood with her plans for the future. She talked excitedly about what she wanted to do after college, about traveling, starting new projects, and just chasing her dreams. Her optimism was contagious, and it felt like a breath of fresh air after everything Snehal had shared. It was nice to talk about hopeful things, to think about possibilities and dreams rather than the weight of the present.Somehow, the conversation turned to Snehal’s plans, and she told us that she might be visiting India soon. I couldn’t help but feel a rush of excitement. I’ve missed her so much, and just the thought of seeing her again soon made me smile. It’s been too long since we last hung out, and I can’t wait to have her back, even if just for a little while.We spent the rest of the afternoon talking about everything and nothing, catching up on life and laughing at the little things. As I walked back home later, I felt grateful for moments like these—when you can be there for your friends, share their burdens, but also remind them of the good things that are coming their way.It was a day of listening, comforting, and talking about brighter days ahead. And that felt like exactly what we all needed.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 3, 2025Today was a bit more serious, but in a good way. I had a meeting with Mansi Subhedar, the ECS HOD, about an upcoming project. We’ve been talking about this for a while, and today, we finally had a proper discussion in her office. Mansi is always so organized and has a way of making things feel clearer, even when they seem overwhelming. We went over the project details, discussing timelines, tasks, and what everyone’s responsibilities would be. It was interesting, and I felt like I was learning a lot just from listening to her break things down.But the best part of the meeting came when I decided to ask her a few questions about my future. I’ve been feeling a bit uncertain about where things are headed—school, career, life in general—and I figured she’d be the perfect person to ask for advice. So, I hesitated for a moment and then asked her, “How do you balance everything—work, study, and personal life? How do you know what steps to take next?”Her response really stuck with me. She told me that balance is key, but it’s also about setting priorities and not being afraid to take small risks. \"You’ll never feel completely ready for everything,\" she said, \"but you just have to trust that you’re building the foundation, even when things feel uncertain.\" She also mentioned that internships and hands-on experience are a great way to figure things out. That part really hit home—I hadn’t thought about looking into internships yet, but I think it could be a great way to apply what I’m learning and see what areas I enjoy the most.I left the meeting feeling more confident. It’s like I had a little more direction now, especially when it comes to balancing my responsibilities and planning for the future. Mansi’s advice really gave me something to think about. I’ve been so focused on studying that I haven’t really explored other opportunities, but now I’m considering looking into internships soon, maybe even in the summer. I think it could be exactly what I need to gain some real-world experience.It’s nice to know that even though I’m still figuring things out, I’m on the right path. Today was a reminder that sometimes asking the right questions can open doors to new possibilities.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 4, 2025Today was a productive but slightly stressful day at college. I spent it with Shravni, working on an assignment that was due soon. We met up in the library to get started, but as soon as we opened the project brief, Shravni’s face went from focused to overwhelmed. She started glancing at the deadline, and I could see her stressing out about how much there was left to do. I knew she had a lot on her plate, so I tried to reassure her. “Hey, don’t worry,” I said, trying to keep my voice calm. “We’ve got this. Let’s break it down into smaller chunks, so it doesn’t feel so crazy.” We started going over the assignment step by step, dividing the work into manageable tasks. Once we had everything laid out, Shravni seemed to relax a little bit. It’s funny how sometimes, all you need is someone to help you step back and see the bigger picture. Once we made the plan, the tasks didn’t seem as daunting. We worked through a few sections, and I could tell Shravni was feeling better. It was nice to help her out, and we actually made some great progress.Later on, while we were taking a small break, Shravni mentioned a group trip coming up soon. She was talking about how much fun it would be to get away from all the stress of assignments and exams. I couldn’t help but get a little excited at the thought of it, but at the same time, I felt a little unsure. With everything going on, I’m not sure if I’ll be able to make the time for it. I’d love to go, but I know I’ve got so much to catch up on. Still, the idea of taking a short break with friends sounds tempting, and I think I’ll keep it in mind. Maybe I can figure out a way to balance it all—sometimes, you need that kind of escape to recharge. For now, though, I’m glad Shravni and I got through the bulk of the assignment. It feels good to help each other out and get things done, especially when deadlines start looming over you.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 5, 2025Today was a fun, lighthearted break from the usual stress. I spent the afternoon with Praptee at the canteen, and we ended up gossiping about some of the campus couples. It’s always hilarious to hear the latest relationship drama and antics, especially when you add Praptee’s exaggeration skills into the mix. We started by talking about a couple in our class who always seems to be arguing in the hallway. Praptee was going on about how one of them probably “sneezed too loudly” and that’s why they’re not speaking to each other anymore. Of course, it was totally ridiculous, but we couldn’t stop laughing at the thought of something as small as a sneeze leading to a huge fight. Praptee’s story kept getting more absurd as she added more details—like how the guy supposedly brought her flowers just to apologize for \"the tragic sneeze incident.\" We were both in stitches by the time we finished.Then we moved on to another couple, whose relationship is full of over-the-top PDA. Praptee mimicked their way of holding hands, and it was so exaggerated I almost spit out my juice. “They probably practice that hand-holding routine before they go out,” she joked, making me laugh even harder.The whole day felt easy and fun, filled with laughter and silly conversations. It was nice to just enjoy the little things with a friend and not worry about assignments or deadlines for a while. But as I sat there, listening to Praptee’s latest take on a campus couple, I realized something—I haven’t hung out with Om in a while. With everything going on, I’ve lost track of those little hangouts we used to have. I miss those times, where we could just chat and have fun without any pressure. I think it’s time to change that. Maybe we could grab coffee or even just study together sometime soon. It’s funny how, with all the hustle and bustle, you forget about the people who make the simplest moments feel the best.I’ll text him tomorrow and plan something. I’m sure we both could use a little break.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 6, 2025Today was a sweet day—literally. Riya brought over some homemade rasgullas to my house, and we spent the afternoon tasting and critiquing them like food critics. She had made them herself, and when I saw the box, I could already tell she was proud of her work. We immediately dived in, and of course, the first thing we did was judge the softness. “These are perfect,” Riya said, taking a bite. “Just the right amount of fluffiness.” I agreed, but being the perfectionist that I am, I couldn’t help but critique the balance of sugar. \"They're almost there, but the sweetness could be toned down just a little bit. The sugar is a bit too strong,\" I said, making a face. Riya burst out laughing. \"You're impossible! It's a rasgulla, not a science experiment!\" she teased, but I could tell she appreciated my honest critique. She was still smiling when I took another bite, though, and I had to admit—despite my little nitpicking, they were really good. We kept going back and forth about the balance of sugar, the softness, and whether they were too soft or just right. It was such a silly, fun conversation. I love that Riya gets how particular I can be, and she doesn’t mind it one bit. Eventually, Riya suggested, \"We should host a potluck soon. Get everyone to bring their specialties. I bet it’ll be so much fun!\" I immediately liked the idea. It’s been a while since I’ve had everyone over for something like that, and I think it’ll be the perfect excuse to spend time together while enjoying some good food. I’m already thinking about what I could make—maybe something sweet, though I’ll definitely leave the rasgullas to Riya this time!All in all, it was a fun, easy day filled with food and laughter. I’m looking forward to the potluck and the chance to spend more time with everyone soon.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 7, 2025Today, I spent some time helping Gargie with her math homework. She’s been struggling with the equations lately, and I could tell she was getting frustrated. When she came to me for help, I figured it was the perfect chance to share what I’ve learned and hopefully make things a bit easier for her.At first, she was just staring at the equations like they were some foreign language. “I don’t get it,” she said, looking at me with that “save me” expression. I took a deep breath and tried to explain the steps calmly. As I went through the first equation, I added a bit of humor to lighten the mood, joking about how math is basically like solving a mystery—only instead of a detective, we’re the ones doing all the heavy lifting. Gargie started to smile, and that made it easier to keep going.Step by step, I helped her break down the equations, showing her how to spot the patterns and simplify things. By the time we finished, she was getting the hang of it, and I could see her confidence growing. “Okay, I think I actually get it now,” she said, sounding relieved. It was such a small thing, but I felt proud of myself for being able to explain it in a way that made sense to her. As I was packing up my things, Gargie thanked me for the help. I could tell she was genuinely grateful, which made me feel good about the whole thing. Sometimes, it’s nice to be able to pass on what you know, especially when it makes someone’s day easier.While we were talking, I made a mental note to ask Gargie to join me on a college trip later in the semester. I think it would be fun to have her come along, and it’d be a nice way for us to hang out outside of the usual routine.All in all, it was a good day. Helping Gargie made me feel like I’m not just learning for myself but also passing on a little bit of what I know. It’s funny how something as simple as math can bring people closer together.- Durva"
+    },
+    {
+      "timestamp": "2025-04-13 15:15:12",
+      "input": "May 8, 2025Today, I had a heart-to-heart with my mom, and it felt like such an important conversation. We sat together in the living room after dinner, just talking about life and everything on my mind. I’ve been thinking a lot about my future lately—career goals, education, and the direction I want to take. So, I figured it was time to share my thoughts with her.We started talking about my studies and what I hope to do after college. I told her how I’ve been feeling a bit uncertain, unsure of which path to take next. She listened carefully, as she always does, and then shared her perspective. She reminded me that the most important thing is to follow what feels right for me, but also to always be open to learning and growing. Then, our conversation shifted to something I’ve been wanting to discuss for a while—women’s rights. My mom has always been a strong advocate for equality, and today, she spoke about how far we’ve come, but also how there’s still so much to be done. “Never forget your worth, Durva,” she said. “You have every right to pursue your dreams, and no one can take that from you.” Her words hit me deeply. There’s something so empowering about hearing that from your mom, someone who’s always had your back and who has fought so hard for what she believes in.By the end of the conversation, I felt a sense of strength and clarity. My mom reminded me that I am capable of making my own choices, of carving out my own path, and that whatever I decide to do, she’ll be there to support me every step of the way. It felt like a weight lifted off my shoulders.Later, inspired by our talk, I decided to take the next step toward my future. I’ve been thinking about gaining some practical experience, so I went ahead and applied for an internship. It feels like a good move, and I’m excited to see where it might lead. I can already imagine the new skills I’ll learn and the doors it could open. I texted Om afterward, sharing the news about my internship application. I thought he’d be happy for me, and his response was full of encouragement, just like I expected. It’s nice to have friends who support your growth, especially when you’re making decisions about your future.All in all, today felt empowering. I know I still have a long way to go, but I’m taking steps forward, and that feels good.- Durva"
+    }
+  ],
+  "_metadata": {
+    "created": "2025-04-13 15:15:12",
+    "last_updated": "2025-04-13 15:15:12"
+  }
+}
