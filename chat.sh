@@ -2,388 +2,324 @@
 
 # Configuration
 GROQ_API_KEY="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"
-MINDMAP_FILE="mindmap.json"
+MEMORY_FILE="memory.json"
 MODEL="llama3-70b-8192"
-DATE=$(date +"%Y-%m-%d")
+TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
 
-# Check for required commands
-for cmd in curl jq; do
-    if ! command -v $cmd &>/dev/null; then
-        echo "Error: $cmd is required but not installed. Please install it and try again."
-        exit 1
-    fi
+# Dependency checks
+for cmd in curl jq flock; do
+    command -v $cmd &>/dev/null || { echo "Missing required: $cmd"; exit 1; }
 done
 
-initialize_mindmap() {
-    if [ ! -f "$MINDMAP_FILE" ]; then
-        echo '{
+# Initialize JSON structure with proper locking
+initialize_memory() {
+    (
+        flock 200
+        [ -f "$MEMORY_FILE" ] || echo '{
             "entities": {
-                "person": {},
-                "place": {},
-                "organization": {},
-                "event": {},
-                "object": {}
+                "people": {},
+                "places": {},
+                "events": {},
+                "objects": {},
+                "concepts": {}
             },
-            "conversations_by_date": {},
-            "facts": {},
-            "logs": []
-        }' | jq '.' > "$MINDMAP_FILE"
-        echo "Created new mindmap file: $MINDMAP_FILE"
+            "temporal_records": [],
+            "raw_history": [],
+            "_metadata": {
+                "created": "'"$TIMESTAMP"'",
+                "last_updated": "'"$TIMESTAMP"'"
+            }
+        }' | jq . > "$MEMORY_FILE"
+    ) 200>"${MEMORY_FILE}.lock"
+}
+
+# Atomic JSON save with robust error recovery
+safe_save() {
+    local temp_file=$(mktemp)
+    local backup_file="${MEMORY_FILE}.bak.$(date +%s)"
+    
+    # Create backup
+    cp "$MEMORY_FILE" "$backup_file"
+    
+    # Process and validate
+    if jq . > "$temp_file" 2>/dev/null; then
+        # Verify JSON validity before replacing
+        if jq empty "$temp_file" 2>/dev/null; then
+            mv "$temp_file" "$MEMORY_FILE"
+            echo "Update successful"
+        else
+            echo "Invalid JSON generated, restoring backup"
+            mv "$backup_file" "$MEMORY_FILE"
+            return 1
+        fi
+    else
+        echo "JSON processing failed, restoring backup"
+        mv "$backup_file" "$MEMORY_FILE"
+        return 1
     fi
+    
+    # Keep last 10 backups for better recovery options
+    ls -t "${MEMORY_FILE}.bak."* | tail -n +11 | xargs rm -f --
 }
 
-escape_json() {
-    echo "$1" | jq -Rs '.'
-}
-
+# Enhanced API call with validation and retry logic
 call_groq() {
     local prompt="$1"
     local max_retries=3
     local retry_count=0
-    local response=""
-    
-    local payload=$(jq -n \
-        --arg model "$MODEL" \
-        --arg user "$prompt" \
-        '{
-            "model": $model,
-            "temperature": 0.7,
-            "response_format": {"type": "json_object"},
-            "messages": [
-                {"role": "user", "content": $user}
-            ]
-        }')
+    local response
     
     while [ $retry_count -lt $max_retries ]; do
         response=$(curl -s -X POST "https://api.groq.com/openai/v1/chat/completions" \
             -H "Authorization: Bearer $GROQ_API_KEY" \
             -H "Content-Type: application/json" \
-            -d "$payload")
+            -d "$(jq -n \
+                --arg model "$MODEL" \
+                --arg prompt "$prompt" \
+                '{
+                    "model": $model,
+                    "temperature": 0.3,
+                    "response_format": {"type": "json_object"},
+                    "messages": [
+                        {
+                            "role": "system", 
+                            "content": "Output STRICT VALID JSON. Preserve ALL details with exact timestamps."
+                        },
+                        {"role": "user", "content": $prompt}
+                    ]
+                }')" | jq -r '.choices[0].message.content')
         
-        if echo "$response" | jq -e '.choices[0].message.content' &>/dev/null; then
-            echo "$response" | jq -r '.choices[0].message.content'
+        if jq -e . <<<"$response" &>/dev/null; then
+            echo "$response"
             return 0
         else
             retry_count=$((retry_count + 1))
-            echo "API call failed (attempt $retry_count/$max_retries). Retrying..." >&2
+            echo "Invalid JSON response (attempt $retry_count/$max_retries)" >&2
             sleep 1
         fi
     done
     
-    echo "Error: Failed to get response after $max_retries attempts"
+    echo "Error: Maximum retries reached" >&2
     return 1
 }
 
-# Extract entities and details
-extract_entities() {
+# Optimized structured data extraction with full context preservation
+extract_information() {
     local text="$1"
-    local extract_prompt="Extract key entities and details from this text and organize them into a structured mindmap. Today's date is $DATE. Format your response STRICTLY as a valid JSON with the following structure:
+    cat <<EOF
+Return JSON with EXACT structure:
 
 {
-  \"entities\": {
-    \"person\": {
-      \"[PersonName]\": {
-        \"relationships\": {
-          \"[RelatedEntityName]\": {
-            \"type\": \"[RelationshipType]\",
-            \"details\": \"[Optional details]\"
-          }
-        },
-        \"attributes\": {\"[AttributeName]\": \"[AttributeValue]\"},
-        \"conversations\": [
-          {
-            \"date\": \"YYYY-MM-DD\",
-            \"time\": \"HH:MM:SS\",
-            \"dialogue\": [
-              {\"speaker\": \"[Speaker]\", \"text\": \"[Text]\"}
-            ],
-            \"topics\": [\"[Topic1]\", \"[Topic2]\"],
-            \"sentiment\": \"[positive/negative/neutral]\",
-            \"location\": \"[Location]\",
-            \"context\": \"[Context of conversation]\",
-            \"key_points\": [\"[KeyPoint1]\", \"[KeyPoint2]\"],
-            \"summary\": \"[Detailed conversation summary]\"
-          }
-        ]
-      }
-    },
-    \"place\": {
-      \"[PlaceName]\": {
-        \"memories\": [
-          {
-            \"date\": \"YYYY-MM-DD HH:MM:SS\",
-            \"event\": \"[EventName]\",
-            \"details\": \"[EventDetails]\"
-          }
-        ],
-        \"attributes\": {\"[AttributeName]\": \"[AttributeValue]\"}
-      }
-    },
-    \"event\": {
-      \"[EventName]\": {
-        \"date\": \"YYYY-MM-DD HH:MM:SS\",
-        \"participants\": [\"[PersonName]\"],
-        \"location\": \"[PlaceName]\",
-        \"details\": \"[EventDetails]\"}
-    },
-    \"object\": {
-      \"[ObjectName]\": {
-        \"category\": \"[Category]\",
-        \"attributes\": {\"[AttributeName]\": \"[AttributeValue]\"},
-        \"facts\": [\"[Fact1]\", \"[Fact2]\"]
-      }
-    }
+  "entities": {
+    "people": {
+      "[NAME]": {
+        "attributes": {/* All mentioned traits */},
+        "memory": [{
+          "timestamp": "$TIMESTAMP",
+          "content": "[VERBATIM_DETAIL]",
+          "context": "[RELATED_ENTITIES]"
+        }]
+    }},
+    "places": { /* Similar structure */ },
+    "events": { /* Similar structure */ },
+    "objects": { /* Similar structure */ },
+    "concepts": { /* Similar structure */ }
   },
-  \"conversations_by_date\": {
-    \"YYYY-MM-DD\": {
-      \"people\": [\"[PersonName]\"],
-      \"conversations\": [
-        {
-          \"time\": \"HH:MM:SS\",
-          \"dialogue\": [
-            {\"speaker\": \"[Speaker]\", \"text\": \"[Text]\"}
-          ],
-          \"summary\": \"[Summary]\"
-        }
-      ]
-    }
-  },
-  \"facts\": {
-    \"[FactID]\": {
-      \"statement\": \"[FactStatement]\",
-      \"related_entities\": [\"[EntityName]\"],
-      \"source\": \"[Source]\",
-      \"date_recorded\": \"YYYY-MM-DD HH:MM:SS\"
-    }
-  },
-  \"metadata\": {
-    \"date\": \"YYYY-MM-DD\",
-    \"summary\": \"[ConversationSummary]\"
-  }
+  "temporal_records": [{
+    "timestamp": "$TIMESTAMP",
+    "entity_type": "[TYPE]",
+    "entity_name": "[NAME]",
+    "memory_fragment": "[DETAIL]",
+    "full_context": "[COMPLETE_INPUT]"
+  }]
 }
 
-IMPORTANT: 
-1. Output ONLY JSON
-2. Include detailed timestamps in YYYY-MM-DD HH:MM:SS format
-3. Store conversations both in person entities AND grouped by date 
-4. For objects, always include a 'category' field with values like 'movie', 'series', 'book', 'clothing', 'food', etc.
-5. Structure all data within the appropriate entity
-6. Do not create subcategories
-7. Include extremely rich and comprehensive details for all entities
-8. Only include data that is explicitly mentioned in the text
-9. Do not assign any type of IDs to facts or other elements
-10. Store conversations in great detail with full context, topics, sentiment, and comprehensive summaries"
+RULES:
+1. Preserve original text exactly in both entity memories and temporal records
+2. Include full entry context in temporal_records.full_context
+3. Never omit details or truncate content
+4. Ensure consistent timestamp format across all entries
 
-    # Call Groq for extraction with json_object format
-    call_groq "$extract_prompt
-
-Text to extract from:
-$text"
-}
-
-# Update mindmap
-update_mindmap() {
-    local user_input="$1"
-    local bot_response="$2"
-    local extraction="$3"
-    local current_date=$(date +"%Y-%m-%d")
-    local current_time=$(date +"%H:%M:%S")
-    
-    # Create backup of current mindmap
-    cp "$MINDMAP_FILE" "${MINDMAP_FILE}.bak"
-    
-    # Validate extraction JSON
-    if ! echo "$extraction" | jq empty &>/dev/null; then
-        echo "Warning: Received invalid JSON from extraction process" >&2
-        extraction='{
-            "entities": {},
-            "conversations_by_date": {},
-            "facts": {},
-            "metadata": {"date": "'"$current_date"'", "summary": ""}
-        }'
-    fi
-    
-    # Create a temporary file for the jq script
-    local temp_jq_script=$(mktemp)
-    
-    # Write the jq script to the temporary file
-    cat > "$temp_jq_script" << 'EOF'
-# Function to merge arrays by combining unique elements
-def merge_arrays(a; b):
-    if (a | type) == "array" and (b | type) == "array" then
-        a + b | unique
-    else
-        b
-    end;
-
-# Function to recursively merge objects by combining values
-def deep_merge(a; b):
-    if (a | type) == "object" and (b | type) == "object" then
-        # Create a new object with keys from both inputs
-        a as $a | b as $b | reduce (($a | keys) + ($b | keys) | unique[]) as $k (
-            {};
-            # If key exists in both, merge the values
-            if ($a[$k] != null) and ($b[$k] != null) then
-                if ($a[$k] | type) == "object" and ($b[$k] | type) == "object" then
-                    .[$k] = deep_merge($a[$k]; $b[$k])
-                elif ($a[$k] | type) == "array" and ($b[$k] | type) == "array" then
-                    .[$k] = merge_arrays($a[$k]; $b[$k])
-                else
-                    .[$k] = $b[$k]  # Prefer new value
-                end
-            # If key exists only in one, use that value
-            elif $a[$k] != null then
-                .[$k] = $a[$k]
-            else
-                .[$k] = $b[$k]
-            end
-        )
-    else
-        b  # If not both objects, prefer the new value
-    end;
-
-# Main update logic
-. as $original | $extraction as $new_data |
-
-# Initialize entities categories if they don't exist
-. = (
-    if has("entities") then . 
-    else . + {
-        "entities": {
-            "person": {},
-            "place": {},
-            "organization": {},
-            "event": {},
-            "object": {}
-        }
-    } end
-) |
-
-# Initialize conversations_by_date if it doesn't exist
-. = (
-    if has("conversations_by_date") then .
-    else . + {"conversations_by_date": {}} end
-) |
-
-# Initialize facts if they don't exist
-. = (
-    if has("facts") then .
-    else . + {"facts": {}} end
-) |
-
-# Initialize logs if they don't exist
-. = (
-    if has("logs") then .
-    else . + {"logs": []} end
-) |
-
-# Merge entities
-($new_data.entities | keys) as $entity_types |
-reduce $entity_types[] as $type (.;
-    if ($original.entities[$type] != null) then
-        .entities[$type] = deep_merge($original.entities[$type]; $new_data.entities[$type])
-    else
-        .entities[$type] = $new_data.entities[$type]
-    end
-) |
-
-# Merge conversations by date
-if $new_data.conversations_by_date then
-    .conversations_by_date = deep_merge($original.conversations_by_date; $new_data.conversations_by_date)
-else .
-end |
-
-# Merge facts
-if $new_data.facts then
-    .facts = deep_merge($original.facts; $new_data.facts)
-else .
-end |
-
-# Add to logs
-.logs += [{
-    "timestamp": $timestamp,
-    "user_input": $user,
-    "assistant_response": $assistant
-}]
+Input:
+$text
 EOF
-
-    # Update mindmap using the temporary jq script
-    jq --from-file "$temp_jq_script" \
-        --argjson extraction "$extraction" \
-        --arg timestamp "$current_date $current_time" \
-        --arg user "$user_input" \
-        --arg assistant "$bot_response" \
-        "${MINDMAP_FILE}.bak" > "$MINDMAP_FILE"
-    
-    # Remove the temporary script
-    rm "$temp_jq_script"
-    
-    # Check if operation was successful
-    if [ $? -eq 0 ] && [ -s "$MINDMAP_FILE" ]; then
-        # Validate the new mindmap file
-        if jq empty "$MINDMAP_FILE" &>/dev/null; then
-            echo "Mindmap updated successfully."
-            rm "${MINDMAP_FILE}.bak"
-        else
-            echo "Error: Generated invalid JSON. Restoring backup." >&2
-            mv "${MINDMAP_FILE}.bak" "$MINDMAP_FILE"
-        fi
-    else
-        echo "Error: Failed to update mindmap file. Restoring backup." >&2
-        mv "${MINDMAP_FILE}.bak" "$MINDMAP_FILE"
-    fi
 }
 
-# Main function
-main() {
-    # Initialize mindmap
-    initialize_mindmap
+# Thread-safe memory update with raw history preservation
+update_memory() {
+    local new_data="$1"
+    local raw_input="$2"
     
-    # Welcome message
-    echo "Mindmap JSON Storage (type 'exit' to quit)"
-    echo "Today's date: $DATE"
-    echo "Model: $MODEL"
-    
-    # Main chat loop
-    while true; do
-        # Get user input
-        echo -n "Input: "
-        read -r user_input
+    (
+        flock 200
+        jq --argjson new "$new_data" --arg raw "$raw_input" --arg ts "$TIMESTAMP" '
+        # Recursive merge with deduplication
+        def deep_merge(a; b):
+            a as $a | b as $b |
+            if ($a|type) == "object" and ($b|type) == "object" then
+                reduce ($b|keys[]) as $key (
+                    $a;
+                    .[$key] = if $a[$key] == null then $b[$key]
+                             else deep_merge($a[$key]; $b[$key])
+                             end
+                )
+            elif ($a|type) == "array" and ($b|type) == "array" then
+                ($a + $b) | unique_by(.timestamp + .content)
+            else
+                $b // $a
+            end;
         
-        # Check for exit command
-        if [ "$user_input" = "exit" ]; then
-            echo "Exiting. Your mindmap has been saved to $MINDMAP_FILE."
-            exit 0
-        fi
+        # Update metadata
+        ._metadata.last_updated = $ts |
         
-        # Skip empty input
-        if [ -z "$user_input" ]; then
-            continue
-        fi
+        # Add raw input to history with timestamp
+        .raw_history += [{
+            "timestamp": $ts,
+            "input": $raw
+        }] |
         
-        # Create user prompt with instruction to return JSON
-        user_prompt="Process this input and respond with a structured JSON reply. Today's date is $DATE. The response must be valid JSON with very detailed entities, attributes, and appropriate categorization. Include category field for objects using values like 'movie', 'series', 'book', 'clothing', etc. Store conversations directly within person entities with rich details including topics, sentiment, and comprehensive summaries.
+        # Merge entities with deep context preservation
+        .entities |= deep_merge(.; $new.entities) |
+        
+        # Add temporal records with full context
+        .temporal_records += $new.temporal_records |
+        
+        # Ensure chronological order
+        .temporal_records |= sort_by(.timestamp) |
+        .raw_history |= sort_by(.timestamp)
+        ' "$MEMORY_FILE" | safe_save
+    ) 200>"${MEMORY_FILE}.lock"
+}
 
-Input: $user_input"
-        
-        # Get response from Groq
-        echo "Processing..."
-        bot_response=$(call_groq "$user_prompt")
-        
-        # Check if we got a valid response
-        if [ -z "$bot_response" ] || [ "$bot_response" = "Error: Failed to get response after 3 attempts" ]; then
-            echo "Error: Failed to process request"
-            continue
+# Memory query function
+query_memory() {
+    local query="$1"
+    
+    (
+        flock -s 200
+        jq -c --arg q "$query" '
+        .entities as $e |
+        .temporal_records as $t |
+        .raw_history as $r |
+        {
+            "query": $q,
+            "timestamp": "'"$TIMESTAMP"'",
+            "matches": {
+                "entities": [
+                    # Search through entities
+                    ($e.people | to_entries[] | select(.key | test($q;"i")) | 
+                        {type: "person", name: .key, data: .value}),
+                    ($e.places | to_entries[] | select(.key | test($q;"i")) | 
+                        {type: "place", name: .key, data: .value}),
+                    ($e.events | to_entries[] | select(.key | test($q;"i")) | 
+                        {type: "event", name: .key, data: .value}),
+                    ($e.objects | to_entries[] | select(.key | test($q;"i")) | 
+                        {type: "object", name: .key, data: .value}),
+                    ($e.concepts | to_entries[] | select(.key | test($q;"i")) | 
+                        {type: "concept", name: .key, data: .value})
+                ],
+                "temporal": [
+                    # Search through temporal records
+                    $t[] | select(.full_context | test($q;"i"))
+                ],
+                "raw_history": [
+                    # Search through raw history
+                    $r[] | select(.input | test($q;"i"))
+                ]
+            }
+        }' "$MEMORY_FILE"
+    ) 200>"${MEMORY_FILE}.lock"
+}
+
+# Function to restore from backup
+restore_from_backup() {
+    local backup_list=$(ls -t "${MEMORY_FILE}.bak."* 2>/dev/null)
+    
+    if [ -z "$backup_list" ]; then
+        echo "No backups found"
+        return 1
+    fi
+    
+    echo "Available backups:"
+    local i=1
+    while read -r backup; do
+        local date_str=$(date -r "$backup" "+%Y-%m-%d %H:%M:%S")
+        echo "$i) $date_str - $backup"
+        i=$((i+1))
+    done <<< "$backup_list"
+    
+    echo -n "Select backup to restore (number): "
+    read -r selection
+    
+    if [[ "$selection" =~ ^[0-9]+$ ]]; then
+        local selected_backup=$(echo "$backup_list" | sed -n "${selection}p")
+        if [ -f "$selected_backup" ]; then
+            cp "$MEMORY_FILE" "${MEMORY_FILE}.before_restore.$(date +%s)"
+            cp "$selected_backup" "$MEMORY_FILE"
+            echo "Restored from: $selected_backup"
+            return 0
         fi
+    fi
+    
+    echo "Invalid selection or backup not found"
+    return 1
+}
+
+# Main function with expanded capabilities
+main() {
+    initialize_memory
+    echo "Enhanced Journal Memory System - Full Context Preservation"
+    
+    while true; do
+        echo -n "Command (add/query/backup/restore/exit): "
+        read -r command
         
-        # Extract entities and details
-        echo "Updating mindmap..."
-        extraction=$(extract_entities "$user_input $bot_response")
-        
-        # Update mindmap with new information
-        update_mindmap "$user_input" "$bot_response" "$extraction"
+        case "$command" in
+            add|a)
+                echo -n "Entry: "
+                read -r user_input
+                
+                echo "Processing..."
+                extraction_prompt=$(extract_information "$user_input")
+                if structured_data=$(call_groq "$extraction_prompt"); then
+                    echo "Validating structure..."
+                    if jq -e . <<<"$structured_data" &>/dev/null; then
+                        echo "Updating memory with full context..."
+                        update_memory "$structured_data" "$user_input"
+                    else
+                        echo "Invalid structure: $structured_data"
+                    fi
+                else
+                    echo "Failed to process input"
+                fi
+                ;;
+                
+            query|q)
+                echo -n "Search term: "
+                read -r search_term
+                query_result=$(query_memory "$search_term")
+                echo "$query_result" | jq '.'
+                ;;
+                
+            backup|b)
+                cp "$MEMORY_FILE" "${MEMORY_FILE}.manual.$(date +%s)"
+                echo "Manual backup created"
+                ;;
+                
+            restore|r)
+                restore_from_backup
+                ;;
+                
+            exit|e)
+                break
+                ;;
+                
+            *)
+                echo "Unknown command: $command"
+                echo "Available commands: add/a, query/q, backup/b, restore/r, exit/e"
+                ;;
+        esac
     done
 }
 
-# Run the main function
 main

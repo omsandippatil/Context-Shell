@@ -1,0 +1,306 @@
+{
+  "entities": {
+    "people": {
+      "Aadi": {
+        "attributes": {
+          "traits": [
+            "good at air hockey"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "Aadi beat both of us at air hockey (ugh, sore loser moment for me).",
+            "context": [
+              "Durva",
+              "Priya",
+              "air hockey"
+            ]
+          }
+        ]
+      },
+      "Dad": {
+        "attributes": {},
+        "memory": [
+          {
+            "timestamp": "2025-03-29 23:59:00",
+            "content": "Dad asked about my day, and I just shrugged—typical teen response.",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "Durva": {
+        "attributes": {
+          "age": null,
+          "traits": [
+            "teenager",
+            "procrastinator",
+            "binge watcher",
+            "late riser"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-03-29 00:00:00",
+            "content": "Today was… a lot.",
+            "context": [
+              "Priya",
+              "Aadi",
+              "Mom",
+              "Riya"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 02:00:00",
+            "content": "I stayed up binge watching Stranger Things until 2 AM.",
+            "context": [
+              "Stranger Things"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 09:30:00",
+            "content": "Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!'",
+            "context": [
+              "Mom"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "I had plans with Priya and Aadi!",
+            "context": [
+              "Priya",
+              "Aadi"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade.",
+            "context": [
+              "Priya",
+              "Aadi",
+              "mall"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "Aadi beat both of us at air hockey (ugh, sore loser moment for me).",
+            "context": [
+              "Aadi",
+              "Priya",
+              "air hockey"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "We ran into Riya from school, who was with her new friend group.",
+            "context": [
+              "Riya",
+              "school"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined.",
+            "context": [
+              "Priya",
+              "Riya"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "We ended up leaving early.",
+            "context": [
+              "Priya",
+              "Aadi"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 23:59:00",
+            "content": "I hate when things get weird with people.",
+            "context": [
+              "Riya"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 23:59:00",
+            "content": "I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).",
+            "context": [
+              "TikTok"
+            ]
+          }
+        ]
+      },
+      "Mom": {
+        "attributes": {
+          "traits": [
+            "dramatic"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-03-29 09:30:00",
+            "content": "Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!'",
+            "context": [
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "Priya": {
+        "attributes": {
+          "traits": [
+            "sarcastic"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined.",
+            "context": [
+              "Riya",
+              "Durva"
+            ]
+          }
+        ]
+      },
+      "Riya": {
+        "attributes": {
+          "traits": [
+            "part of new friend group"
+          ]
+        },
+        "memory": [
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "We ran into Riya from school, who was with her new friend group.",
+            "context": [
+              "Durva",
+              "Priya",
+              "Aadi",
+              "school"
+            ]
+          },
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined.",
+            "context": [
+              "Priya",
+              "Durva"
+            ]
+          }
+        ]
+      }
+    },
+    "places": {
+      "mall": {
+        "attributes": {},
+        "memory": [
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade.",
+            "context": [
+              "Durva",
+              "Priya",
+              "Aadi"
+            ]
+          }
+        ]
+      },
+      "school": {
+        "attributes": {},
+        "memory": [
+          {
+            "timestamp": "2025-03-29 11:00:00",
+            "content": "We ran into Riya from school, who was with her new friend group.",
+            "context": [
+              "Riya",
+              "Durva",
+              "Priya",
+              "Aadi"
+            ]
+          }
+        ]
+      }
+    },
+    "events": {},
+    "objects": {},
+    "concepts": {}
+  },
+  "temporal_records": [
+    {
+      "timestamp": "2025-03-29 00:00:00",
+      "entity_type": "people",
+      "entity_name": "Durva",
+      "memory_fragment": "Today was… a lot.",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 02:00:00",
+      "entity_type": "people",
+      "entity_name": "Durva",
+      "memory_fragment": "I stayed up binge watching Stranger Things until 2 AM.",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 09:30:00",
+      "entity_type": "people",
+      "entity_name": "Mom",
+      "memory_fragment": "Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!'",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 11:00:00",
+      "entity_type": "people",
+      "entity_name": "Durva",
+      "memory_fragment": "I had plans with Priya and Aadi!",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 11:00:00",
+      "entity_type": "people",
+      "entity_name": "Priya",
+      "memory_fragment": "Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined.",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 11:00:00",
+      "entity_type": "people",
+      "entity_name": "Aadi",
+      "memory_fragment": "Aadi beat both of us at air hockey (ugh, sore loser moment for me).",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 11:00:00",
+      "entity_type": "people",
+      "entity_name": "Riya",
+      "memory_fragment": "We ran into Riya from school, who was with her new friend group.",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 23:59:00",
+      "entity_type": "people",
+      "entity_name": "Durva",
+      "memory_fragment": "I hate when things get weird with people.",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    },
+    {
+      "timestamp": "2025-03-29 23:59:00",
+      "entity_type": "people",
+      "entity_name": "Dad",
+      "memory_fragment": "Dad asked about my day, and I just shrugged—typical teen response.",
+      "full_context": "March 29, 2025 (Saturday)  'A Rollercoaster of a Day'  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, 'Durva! If you sleep all day, you’ll turn into a zombie!' (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto 'I don’t have time to think' outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    }
+  ],
+  "raw_history": [
+    {
+      "timestamp": "2025-04-13 05:39:27",
+      "input": "March 29, 2025 (Saturday)  \"A Rollercoaster of a Day\"  Today was… a lot. I woke up late (again) because I stayed up binge watching Stranger Things until 2 AM. Mom was not happy—she banged on my door at 9:30 yelling, \"Durva! If you sleep all day, you’ll turn into a zombie!\" (Dramatic much?) I dragged myself out of bed, ate some stale cereal, and then remembered—I had plans with Priya and Aadi! We were supposed to meet at the mall at 11, and I was already running late.  I rushed through my shower, threw on jeans and a hoodie (my goto \"I don’t have time to think\" outfit), and begged Mom to drop me off. She grumbled but agreed (bless her). Priya and Aadi were already there when I arrived, sipping iced coffees and judging me for being late (per usual). We wandered around, tried on ridiculous sunglasses, and took a million selfies near the arcade. Aadi beat both of us at air hockey (ugh, sore loser moment for me).  Then came the drama. We ran into Riya from school, who was with her new friend group. Awkward. We’re not exactly enemies, but ever since she stopped hanging with us last year, things have been tense. Priya made some sarcastic comment under her breath, Riya gave us the look, and suddenly the vibe was ruined. We ended up leaving early.  At home, Dad asked about my day, and I just shrugged—typical teen response. But honestly? I felt kinda down. I hate when things get weird with people. I distracted myself by scrolling through TikTok and painting my nails a sparkly blue (which smudged, of course).  Now it’s almost midnight. Tomorrow’s Sunday—homework day (groan). Maybe I’ll text Priya and Aadi to see if we can fix the weirdness. Or maybe I’ll just sleep forever. Who knows?  Signing off,  Durva"
+    }
+  ],
+  "_metadata": {
+    "created": "2025-04-13 05:39:27",
+    "last_updated": "2025-04-13 05:39:27"
+  }
+}
